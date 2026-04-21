@@ -1,0 +1,6067 @@
+{
+  "scatter_data": [
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.25,
+      "category": "drinking",
+      "company": "Penta Water",
+      "slogan": "Taste and feel the difference."
+    },
+    {
+      "sentiment": 0.178,
+      "efficacite": 3.18,
+      "category": "drinking",
+      "company": "Jameson Irish Whiskey",
+      "slogan": "The spirit of Ireland."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.38,
+      "category": "drinking",
+      "company": "Starbucks",
+      "slogan": "Customize Your Cup."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.52,
+      "category": "drinking",
+      "company": "Hendrick's Gin",
+      "slogan": "A most unusual gin."
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 5.17,
+      "category": "drinking",
+      "company": "Konig's Westphalian Gin",
+      "slogan": "The only perfect gin."
+    },
+    {
+      "sentiment": 0.178,
+      "efficacite": 4.0,
+      "category": "drinking",
+      "company": "Kahlua",
+      "slogan": "Awaken the spirit."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.78,
+      "category": "drinking",
+      "company": "Gold Spot",
+      "slogan": "The Zing Thing."
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 5.27,
+      "category": "drinking",
+      "company": "Ritazza",
+      "slogan": "The art of great coffee."
+    },
+    {
+      "sentiment": 0.599,
+      "efficacite": 4.91,
+      "category": "drinking",
+      "company": "Super Bock",
+      "slogan": "Life is Super"
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 5.04,
+      "category": "drinking",
+      "company": "Long Life",
+      "slogan": "Enjoy the difference."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.29,
+      "category": "drinking",
+      "company": "Coca-Cola Light",
+      "slogan": "Taste it all."
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 3.97,
+      "category": "drinking",
+      "company": "Codorniu",
+      "slogan": "The Culture of Pleasure."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.42,
+      "category": "drinking",
+      "company": "Evian",
+      "slogan": "Evian. Live young."
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 4.42,
+      "category": "drinking",
+      "company": "Taut",
+      "slogan": "The first clean sports drink."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.54,
+      "category": "drinking",
+      "company": "XL Cola",
+      "slogan": "Extra Large Taste"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.92,
+      "category": "drinking",
+      "company": "Pilsner Urquell",
+      "slogan": "The world's first golden beer."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "drinking",
+      "company": "Ensure",
+      "slogan": "Nutrition in charge!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "drinking",
+      "company": "Tiger Beer",
+      "slogan": "It's Time for a Tiger"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.47,
+      "category": "drinking",
+      "company": "Molson Canadian",
+      "slogan": "It Starts Here."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.3,
+      "category": "drinking",
+      "company": "Norrlands Guld",
+      "slogan": "Be yourself for a while"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.1,
+      "category": "drinking",
+      "company": "Bombay Sapphire",
+      "slogan": "Pour something priceless."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "drinking",
+      "company": "Wadworth 6X",
+      "slogan": "Handmade in Devizes."
+    },
+    {
+      "sentiment": 0.421,
+      "efficacite": 4.17,
+      "category": "drinking",
+      "company": "Glenmorangie",
+      "slogan": "Gaelic for glen of tranquillity."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.08,
+      "category": "drinking",
+      "company": "Thums Up",
+      "slogan": "Taste The Thunder."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.48,
+      "category": "drinking",
+      "company": "Parle-G",
+      "slogan": "G for Genius"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.28,
+      "category": "drinking",
+      "company": "Lambrini",
+      "slogan": "Do the Lambrini."
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 5.25,
+      "category": "drinking",
+      "company": "Ovaltine",
+      "slogan": "Nutritiously delicious."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "drinking",
+      "company": "R. White's",
+      "slogan": "As it shoud be."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.58,
+      "category": "drinking",
+      "company": "Koppaberg",
+      "slogan": "Cider of Sweden."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.6,
+      "category": "drinking",
+      "company": "Hennessy",
+      "slogan": "Mix accordingly."
+    },
+    {
+      "sentiment": 0.273,
+      "efficacite": 4.52,
+      "category": "drinking",
+      "company": "Tzinga",
+      "slogan": "Energy bole to Sting"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.3,
+      "category": "drinking",
+      "company": "Molson Brewery",
+      "slogan": "We'll drink to that."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "drinking",
+      "company": "Grapette",
+      "slogan": "Thirsty or Not."
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 4.04,
+      "category": "drinking",
+      "company": "Licher Brewery",
+      "slogan": "From the Heart of Nature"
+    },
+    {
+      "sentiment": 0.7,
+      "efficacite": 4.65,
+      "category": "drinking",
+      "company": "Paulaner Brewery",
+      "slogan": "Good, better, Paulaner."
+    },
+    {
+      "sentiment": 0.296,
+      "efficacite": 4.29,
+      "category": "drinking",
+      "company": "J2O",
+      "slogan": "Join in."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.26,
+      "category": "drinking",
+      "company": "Orangina",
+      "slogan": "Life is juicy."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.25,
+      "category": "drinking",
+      "company": "Sherry",
+      "slogan": "Only sherry is sherry."
+    },
+    {
+      "sentiment": 0.103,
+      "efficacite": 6.25,
+      "category": "drinking",
+      "company": "Sun Drop",
+      "slogan": "Drop It Like It's Hot"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.6,
+      "category": "drinking",
+      "company": "Raging Cow",
+      "slogan": "Pasteurize this!"
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 5.14,
+      "category": "drinking",
+      "company": "Tooheys",
+      "slogan": "For the love of beer."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.62,
+      "category": "drinking",
+      "company": "Don Julio",
+      "slogan": "Know your tequila."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "drinking",
+      "company": "Dr. Brown's",
+      "slogan": "Taste of the Town."
+    },
+    {
+      "sentiment": 0.077,
+      "efficacite": 5.38,
+      "category": "drinking",
+      "company": "Watney's",
+      "slogan": "What we want is Watney's"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.5,
+      "category": "drinking",
+      "company": "Lilt",
+      "slogan": "the totally tropical taste."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.3,
+      "category": "drinking",
+      "company": "Rioja",
+      "slogan": "Re-think Rioja."
+    },
+    {
+      "sentiment": -0.103,
+      "efficacite": 4.05,
+      "category": "drinking",
+      "company": "EFFECT Energy",
+      "slogan": "Soft drink. Hard taste."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "drinking",
+      "company": "Blue (soft drink)",
+      "slogan": "life is a feast"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.73,
+      "category": "drinking",
+      "company": "Beamish and Crawford",
+      "slogan": "Drink to the black side."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.65,
+      "category": "drinking",
+      "company": "Yorkshire Tea",
+      "slogan": "Let's have a proper brew."
+    },
+    {
+      "sentiment": 0.077,
+      "efficacite": 5.15,
+      "category": "food",
+      "company": "Tombstone",
+      "slogan": "What do you want on your Tombstone?"
+    },
+    {
+      "sentiment": 0.077,
+      "efficacite": 6.63,
+      "category": "food",
+      "company": "Cheez-It",
+      "slogan": "Want It. Need It. Cheez-It"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.77,
+      "category": "food",
+      "company": "Mackie's",
+      "slogan": "Creamy by nature!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.77,
+      "category": "food",
+      "company": "Alpha Bits",
+      "slogan": "They're ice-cream-a-licious!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "food",
+      "company": "Chapman's",
+      "slogan": "For the kid in all of us"
+    },
+    {
+      "sentiment": 0.66,
+      "efficacite": 6.32,
+      "category": "food",
+      "company": "Dean Foods",
+      "slogan": "It Seemed Like a Good Idea at the Time."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.0,
+      "category": "food",
+      "company": "Thorntons",
+      "slogan": "It's The Thorntons That Counts"
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 5.36,
+      "category": "food",
+      "company": "Jiffy Pop",
+      "slogan": "Fun Snacking in a Jiff."
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 7.04,
+      "category": "food",
+      "company": "Ajinomoto",
+      "slogan": "Eat Well, Live Well."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.3,
+      "category": "food",
+      "company": "Good Humor",
+      "slogan": "Return to the classics"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "food",
+      "company": "Wyke Farms",
+      "slogan": "Over 100 years of family farming."
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 4.84,
+      "category": "food",
+      "company": "Mentos",
+      "slogan": "Stay Fresh"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "food",
+      "company": "Jus-Rol",
+      "slogan": "The pastry people."
+    },
+    {
+      "sentiment": 0.026,
+      "efficacite": 4.28,
+      "category": "food",
+      "company": "Weis",
+      "slogan": "Where Freshness Matters"
+    },
+    {
+      "sentiment": -0.273,
+      "efficacite": 4.82,
+      "category": "food",
+      "company": "LUNA Glow Snack Bar",
+      "slogan": "Low Carb Choice for Women"
+    },
+    {
+      "sentiment": 0.493,
+      "efficacite": 6.59,
+      "category": "food",
+      "company": "Valio",
+      "slogan": "Making you feel good!"
+    },
+    {
+      "sentiment": 0.812,
+      "efficacite": 6.31,
+      "category": "food",
+      "company": "Good & Plenty",
+      "slogan": "Love my Good and Plenty!"
+    },
+    {
+      "sentiment": 0.273,
+      "efficacite": 4.58,
+      "category": "food",
+      "company": "Birds Eye",
+      "slogan": "Eat well."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.77,
+      "category": "food",
+      "company": "Toblerone",
+      "slogan": "Be More Triangle"
+    },
+    {
+      "sentiment": 0.202,
+      "efficacite": 5.68,
+      "category": "food",
+      "company": "Halo Top Creamery",
+      "slogan": "No bowl, no regrets"
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 5.64,
+      "category": "food",
+      "company": "Natural Ice Cream",
+      "slogan": "Taste the original"
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.87,
+      "category": "food",
+      "company": "Holland & Barrett",
+      "slogan": "We’re good for you."
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 3.74,
+      "category": "food",
+      "company": "Little Debbie",
+      "slogan": "Unwrap a smile."
+    },
+    {
+      "sentiment": 0.421,
+      "efficacite": 4.4,
+      "category": "food",
+      "company": "Roshen",
+      "slogan": "Nice stuff"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "food",
+      "company": "Cadbury Creme Egg",
+      "slogan": "It's Hunting Season."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.5,
+      "category": "food",
+      "company": "Cailler",
+      "slogan": "Pure chocolate. Pure emotion."
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 5.57,
+      "category": "food",
+      "company": "Whoppers",
+      "slogan": "The original Malted Milk Balls"
+    },
+    {
+      "sentiment": 0.778,
+      "efficacite": 7.83,
+      "category": "food",
+      "company": "Dreyer's",
+      "slogan": "Share a Scoop. Share a Smile!"
+    },
+    {
+      "sentiment": 0.796,
+      "efficacite": 5.99,
+      "category": "food",
+      "company": "Cadbury Dairy Milk",
+      "slogan": "Free the joy."
+    },
+    {
+      "sentiment": 0.128,
+      "efficacite": 5.88,
+      "category": "food",
+      "company": "Crunchie",
+      "slogan": "Get that Friday feeling"
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 3.19,
+      "category": "food",
+      "company": "Sabrett",
+      "slogan": "keen on quality"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "food",
+      "company": "Hershey's Ice Cream",
+      "slogan": "all you need is Hershey's"
+    },
+    {
+      "sentiment": 0.202,
+      "efficacite": 4.95,
+      "category": "food",
+      "company": "Baxters",
+      "slogan": "The family of fine foods."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.51,
+      "category": "food",
+      "company": "Toaster Strudel",
+      "slogan": "Get Zem Göing."
+    },
+    {
+      "sentiment": 0.459,
+      "efficacite": 6.68,
+      "category": "food",
+      "company": "Canderel",
+      "slogan": "As sweet as life."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.5,
+      "category": "food",
+      "company": "Mother Dairy",
+      "slogan": "Taste that lifts you"
+    },
+    {
+      "sentiment": 0.224,
+      "efficacite": 6.97,
+      "category": "food",
+      "company": "Pringles",
+      "slogan": "Once you pop, you can't stop."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "food",
+      "company": "Hostess CupCake",
+      "slogan": "Where's the cream filling?"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.95,
+      "category": "food",
+      "company": "Juicy Fruit",
+      "slogan": "The taste is gonna move you"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.28,
+      "category": "food",
+      "company": "Kix (cereal)",
+      "slogan": "Kid-tested. Parent-approved."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.03,
+      "category": "food",
+      "company": "Tyson Foods",
+      "slogan": "We’re chicken."
+    },
+    {
+      "sentiment": 0.598,
+      "efficacite": 4.75,
+      "category": "food",
+      "company": "100 Grand Bar",
+      "slogan": "That's Rich!"
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 5.87,
+      "category": "food",
+      "company": "Ouma Rusks",
+      "slogan": "Baked on the original farm."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.05,
+      "category": "food",
+      "company": "Braum's",
+      "slogan": "From Our Family To Yours."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "food",
+      "company": "Gerber",
+      "slogan": "Anything for Baby"
+    },
+    {
+      "sentiment": 0.557,
+      "efficacite": 4.98,
+      "category": "food",
+      "company": "Planters",
+      "slogan": "Naturally Remarkable."
+    },
+    {
+      "sentiment": 0.67,
+      "efficacite": 7.29,
+      "category": "food",
+      "company": "Shurfine",
+      "slogan": "You sure save more at a ShurSave store."
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 5.47,
+      "category": "food",
+      "company": "Arun Icecreams",
+      "slogan": "Life’s Happy moments"
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 4.74,
+      "category": "food",
+      "company": "Evenflo",
+      "slogan": "A friend of the family."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.72,
+      "category": "food",
+      "company": "Oreo",
+      "slogan": "Only oreo."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.5,
+      "category": "restaurant",
+      "company": "Brewers Fayre",
+      "slogan": "Pub Food as it Should Be"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.05,
+      "category": "restaurant",
+      "company": "St-Hubert",
+      "slogan": "Putt-Putt Ding-Ding"
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 5.46,
+      "category": "restaurant",
+      "company": "Bianyifang",
+      "slogan": "Convenient and Comfortable"
+    },
+    {
+      "sentiment": 0.557,
+      "efficacite": 5.18,
+      "category": "restaurant",
+      "company": "Chicken of the Sea",
+      "slogan": "Wild-Caught Happiness"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 6.97,
+      "category": "restaurant",
+      "company": "Carl's Jr.",
+      "slogan": "Making people happy through food"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.04,
+      "category": "restaurant",
+      "company": "Wetson's",
+      "slogan": "Buy a bagful."
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 4.39,
+      "category": "restaurant",
+      "company": "Long John Silver's",
+      "slogan": "That's what I like."
+    },
+    {
+      "sentiment": 0.67,
+      "efficacite": 5.85,
+      "category": "restaurant",
+      "company": "Qdoba",
+      "slogan": "Fast Fresh and Friendly"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.47,
+      "category": "restaurant",
+      "company": "Red Rooster",
+      "slogan": "It's gotta be red"
+    },
+    {
+      "sentiment": -0.296,
+      "efficacite": 5.08,
+      "category": "restaurant",
+      "company": "Outback Steakhouse",
+      "slogan": "No rules, just right."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.95,
+      "category": "restaurant",
+      "company": "Domino's Pizza",
+      "slogan": "Pizza deliver experts."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.33,
+      "category": "restaurant",
+      "company": "Jack in the Box",
+      "slogan": "Eat it. Any time."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "restaurant",
+      "company": "Yogurtland",
+      "slogan": "get real"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.78,
+      "category": "restaurant",
+      "company": "Lotteria",
+      "slogan": "Not beef, but veef"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.21,
+      "category": "restaurant",
+      "company": "Jumbo King",
+      "slogan": "I am Mumbai"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.5,
+      "category": "restaurant",
+      "company": "Panera Bread",
+      "slogan": "Food as it should be."
+    },
+    {
+      "sentiment": -0.34,
+      "efficacite": 7.52,
+      "category": "restaurant",
+      "company": "El Pollo Loco",
+      "slogan": "When you’re crazy for chicken"
+    },
+    {
+      "sentiment": 0.459,
+      "efficacite": 4.48,
+      "category": "restaurant",
+      "company": "O’Charley’s",
+      "slogan": "Passion for food"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 5.72,
+      "category": "restaurant",
+      "company": "Hooters",
+      "slogan": "Delightfully Tacky, Yet Unrefined"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.04,
+      "category": "restaurant",
+      "company": "Logan’s Roadhouse",
+      "slogan": "The Right Way to Roadhouse"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "restaurant",
+      "company": "Cicis",
+      "slogan": "Beyond Pizza"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.33,
+      "category": "restaurant",
+      "company": "Kit Kat",
+      "slogan": "Have a Break, Have a Kit Kat."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.84,
+      "category": "restaurant",
+      "company": "Little Chef",
+      "slogan": "Right up your street."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "restaurant",
+      "company": "Greenwich Pizza",
+      "slogan": "Freshly made everyday"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.55,
+      "category": "restaurant",
+      "company": "Sonic Drive-In",
+      "slogan": "Sonic Everywhere"
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 6.12,
+      "category": "restaurant",
+      "company": "O'Charley's",
+      "slogan": "We put the OHs in good food"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.95,
+      "category": "restaurant",
+      "company": "Beefsteak Charlie's",
+      "slogan": "You're gonna get spoiled"
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 5.21,
+      "category": "restaurant",
+      "company": "Fryer's",
+      "slogan": "Quality You Can Trust."
+    },
+    {
+      "sentiment": 0.493,
+      "efficacite": 6.54,
+      "category": "restaurant",
+      "company": "Swiss Chalet",
+      "slogan": "Always So Good For So Little"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.58,
+      "category": "restaurant",
+      "company": "Mr. Sub",
+      "slogan": "Yours Since 1968."
+    },
+    {
+      "sentiment": -0.477,
+      "efficacite": 5.48,
+      "category": "restaurant",
+      "company": "LongHorn Steakhouse",
+      "slogan": "You Can’t Fake Steak"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 6.77,
+      "category": "restaurant",
+      "company": "Fosters Freeze",
+      "slogan": "Everything at Foster's is wonderful to eat"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.33,
+      "category": "restaurant",
+      "company": "Red Lobster",
+      "slogan": "See what’s cooking."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.28,
+      "category": "restaurant",
+      "company": "Buffalo Wild Wings",
+      "slogan": "You have to be here"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.3,
+      "category": "restaurant",
+      "company": "Twin Peaks",
+      "slogan": "Eats. Drinks. Scenic Views."
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 5.64,
+      "category": "restaurant",
+      "company": "Round Table Pizza",
+      "slogan": "The Last Honest Pizza"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.48,
+      "category": "restaurant",
+      "company": "Jollibee",
+      "slogan": "Langhap-Sarap"
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 4.57,
+      "category": "restaurant",
+      "company": "Buck Creek Coffee House",
+      "slogan": "Hot Drinks for Cool People"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.58,
+      "category": "restaurant",
+      "company": "Bakers Delight",
+      "slogan": "Keep it Real"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "restaurant",
+      "company": "Steak 'n Shake",
+      "slogan": "Famous for Steakburgers"
+    },
+    {
+      "sentiment": 0.542,
+      "efficacite": 7.24,
+      "category": "restaurant",
+      "company": "IHOP",
+      "slogan": "Come hungry, leave happy."
+    },
+    {
+      "sentiment": 0.128,
+      "efficacite": 4.15,
+      "category": "restaurant",
+      "company": "Checkers and Rally's",
+      "slogan": "Crazy good food."
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 4.43,
+      "category": "restaurant",
+      "company": "Fatburger",
+      "slogan": "The last great hamburger stand."
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 6.58,
+      "category": "restaurant",
+      "company": "ConAgra Foods",
+      "slogan": "Food you love"
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 5.66,
+      "category": "restaurant",
+      "company": "Ruby Tuesday",
+      "slogan": "Fun Between The Buns"
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 6.02,
+      "category": "restaurant",
+      "company": "Sizzler",
+      "slogan": "Great steaks, seafood and salads."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.19,
+      "category": "restaurant",
+      "company": "Bagel Bites",
+      "slogan": "You can prepare them in an instant."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.85,
+      "category": "restaurant",
+      "company": "Dairy Queen",
+      "slogan": "Do something different."
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 4.62,
+      "category": "restaurant",
+      "company": "Burgerville",
+      "slogan": "Choose Fresh, Local, Sustainable."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.46,
+      "category": "restaurant",
+      "company": "YO! Sushi",
+      "slogan": "YO! to you."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "car-slogan",
+      "company": "PROTON Holdings",
+      "slogan": "It’s in the Drive."
+    },
+    {
+      "sentiment": 0.477,
+      "efficacite": 3.93,
+      "category": "car-slogan",
+      "company": "Ford Motor Company",
+      "slogan": "Adventurous Spirit"
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 5.61,
+      "category": "car-slogan",
+      "company": "KTM",
+      "slogan": "Ready to Race"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "car-slogan",
+      "company": "Metzeler",
+      "slogan": "Always two wheels ahead."
+    },
+    {
+      "sentiment": 0.273,
+      "efficacite": 4.63,
+      "category": "car-slogan",
+      "company": "Lincoln",
+      "slogan": "Travel Well."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.1,
+      "category": "car-slogan",
+      "company": "Toyota",
+      "slogan": "Moving forward."
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 5.57,
+      "category": "car-slogan",
+      "company": "Kwik Fit",
+      "slogan": "You'll Be Amazed at What We Do"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.25,
+      "category": "car-slogan",
+      "company": "Triumph Motorcycles Ltd",
+      "slogan": "For The Ride."
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 7.46,
+      "category": "car-slogan",
+      "company": "Mahindra Scorpio",
+      "slogan": "Live Young Live Free"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.17,
+      "category": "car-slogan",
+      "company": "Piaggio",
+      "slogan": "Future Unlocked"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "car-slogan",
+      "company": "Pontiac",
+      "slogan": "Fuel for the Soul"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.8,
+      "category": "car-slogan",
+      "company": "Mercury Automobile",
+      "slogan": "Live life in your own lane."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.3,
+      "category": "car-slogan",
+      "company": "Ferrari",
+      "slogan": "We are the competition."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "car-slogan",
+      "company": "Ashok Leyland",
+      "slogan": "Zero At Hundred"
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 4.61,
+      "category": "car-slogan",
+      "company": "Rolls-Royce Motor Cars",
+      "slogan": "Like nothing else on earth."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.31,
+      "category": "car-slogan",
+      "company": "BharatBenz",
+      "slogan": "Power Ahead."
+    },
+    {
+      "sentiment": -0.296,
+      "efficacite": 5.07,
+      "category": "car-slogan",
+      "company": "McLaren",
+      "slogan": "There are No Limits"
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 3.9,
+      "category": "car-slogan",
+      "company": "Midas",
+      "slogan": "Trust Midas"
+    },
+    {
+      "sentiment": 0.7,
+      "efficacite": 5.4,
+      "category": "car-slogan",
+      "company": "Subaru",
+      "slogan": "Safe and enjoyable Subaru"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.6,
+      "category": "car-slogan",
+      "company": "Dodge",
+      "slogan": "Domestic. Not Domesticated."
+    },
+    {
+      "sentiment": 0.273,
+      "efficacite": 5.07,
+      "category": "car-slogan",
+      "company": "Kia Motors",
+      "slogan": "The power to surprise"
+    },
+    {
+      "sentiment": 0.477,
+      "efficacite": 4.75,
+      "category": "car-slogan",
+      "company": "Phillips 66",
+      "slogan": "Proud To Be Here."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "car-slogan",
+      "company": "Imperial (automobile)",
+      "slogan": "It's Time for Imperial."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.79,
+      "category": "car-slogan",
+      "company": "Datsun",
+      "slogan": "Datsun Raising"
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 5.98,
+      "category": "car-slogan",
+      "company": "BYD Auto",
+      "slogan": "Build Your Dreams."
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 3.56,
+      "category": "car-slogan",
+      "company": "GMC Automobiles",
+      "slogan": "Like a Pro"
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 6.44,
+      "category": "car-slogan",
+      "company": "Kal Tire",
+      "slogan": "You'll like us for more than our tires"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.5,
+      "category": "car-slogan",
+      "company": "Kumho Tire",
+      "slogan": "Race proven performance."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.52,
+      "category": "car-slogan",
+      "company": "Skoda Auto",
+      "slogan": "Let´s Explore"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.0,
+      "category": "car-slogan",
+      "company": "Thrifty Car Rental",
+      "slogan": "As Thrifty as you are"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.2,
+      "category": "car-slogan",
+      "company": "Nexen Tire",
+      "slogan": "We Got You"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.5,
+      "category": "car-slogan",
+      "company": "Mandrus",
+      "slogan": "Built without compromise."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.85,
+      "category": "car-slogan",
+      "company": "Ducati",
+      "slogan": "Accessorise your Diavel"
+    },
+    {
+      "sentiment": 0.382,
+      "efficacite": 4.18,
+      "category": "car-slogan",
+      "company": "Arnold Clark Automobiles",
+      "slogan": "Promises delivered."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.5,
+      "category": "car-slogan",
+      "company": "Daihatsu",
+      "slogan": "Light you up."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.21,
+      "category": "car-slogan",
+      "company": "Aprilia",
+      "slogan": "Be A Racer."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.8,
+      "category": "car-slogan",
+      "company": "Oldsmobile",
+      "slogan": "Start something"
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 4.61,
+      "category": "car-slogan",
+      "company": "Hummer",
+      "slogan": "Like nothing else on earth"
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 4.77,
+      "category": "car-slogan",
+      "company": "Nash Motors",
+      "slogan": "Great Cars Since 1902."
+    },
+    {
+      "sentiment": -0.296,
+      "efficacite": 2.82,
+      "category": "car-slogan",
+      "company": "Donkervoort",
+      "slogan": "No Compromise"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.06,
+      "category": "car-slogan",
+      "company": "Chrysler",
+      "slogan": "Your next car."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.31,
+      "category": "car-slogan",
+      "company": "Saab Automobile",
+      "slogan": "Born from Jets"
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 4.54,
+      "category": "car-slogan",
+      "company": "Pagani",
+      "slogan": "Inspired, at the highest level"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.33,
+      "category": "car-slogan",
+      "company": "Petrobras",
+      "slogan": "The Oil is Ours"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.07,
+      "category": "car-slogan",
+      "company": "BFGoodrich",
+      "slogan": "Take control."
+    },
+    {
+      "sentiment": 0.612,
+      "efficacite": 6.51,
+      "category": "car-slogan",
+      "company": "Saturn",
+      "slogan": "Like Always. Like Never Before."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.33,
+      "category": "car-slogan",
+      "company": "Peugeot",
+      "slogan": "Lions of our time"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "car-slogan",
+      "company": "Magna",
+      "slogan": "Forward. For All."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.43,
+      "category": "car-slogan",
+      "company": "Eicher Motors",
+      "slogan": "Go Pro."
+    },
+    {
+      "sentiment": -0.338,
+      "efficacite": 5.34,
+      "category": "car-slogan",
+      "company": "Plymouth Automobile",
+      "slogan": "We've got you cornered!"
+    },
+    {
+      "sentiment": 0.052,
+      "efficacite": 4.08,
+      "category": "apparel",
+      "company": "Happy Socks",
+      "slogan": "All play. No work."
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 4.16,
+      "category": "apparel",
+      "company": "Florsheim",
+      "slogan": "The best. Again."
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 4.69,
+      "category": "apparel",
+      "company": "Old Spice",
+      "slogan": "Smell like grandpa."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 4.69,
+      "category": "apparel",
+      "company": "Abercrombie Kids",
+      "slogan": "It's better being brunette"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.58,
+      "category": "apparel",
+      "company": "Audemars Piguet",
+      "slogan": "You Must First Master Them."
+    },
+    {
+      "sentiment": 0.296,
+      "efficacite": 4.12,
+      "category": "apparel",
+      "company": "Admiral Sportswear",
+      "slogan": "Worn by Champions"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.93,
+      "category": "apparel",
+      "company": "Keds",
+      "slogan": "my keds"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "apparel",
+      "company": "Carl F. Bucherer",
+      "slogan": "Swiss tradition time"
+    },
+    {
+      "sentiment": -0.077,
+      "efficacite": 4.02,
+      "category": "apparel",
+      "company": "Petit Bateau",
+      "slogan": "For serious kids."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.23,
+      "category": "apparel",
+      "company": "Vans",
+      "slogan": "Off the Wall"
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 4.48,
+      "category": "apparel",
+      "company": "Thomas Sabo",
+      "slogan": "Gold up your charm."
+    },
+    {
+      "sentiment": 0.421,
+      "efficacite": 5.42,
+      "category": "apparel",
+      "company": "Kay Jewelers",
+      "slogan": "Every kiss begins with Kay"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.05,
+      "category": "apparel",
+      "company": "Nomination",
+      "slogan": "Self xpression."
+    },
+    {
+      "sentiment": 0.34,
+      "efficacite": 3.34,
+      "category": "apparel",
+      "company": "Rockport",
+      "slogan": "Adventures in living."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.24,
+      "category": "apparel",
+      "company": "Sport Chek",
+      "slogan": "Your Better Starts Here."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.05,
+      "category": "apparel",
+      "company": "Bell & Ross",
+      "slogan": "Watch Beyond"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.45,
+      "category": "apparel",
+      "company": "Famous Footwear",
+      "slogan": "This season, start with the shoes."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "apparel",
+      "company": "Timex watches",
+      "slogan": "Life is ticking."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.05,
+      "category": "apparel",
+      "company": "Ariat",
+      "slogan": "Know where you stand"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 5.47,
+      "category": "apparel",
+      "company": "Lorus",
+      "slogan": "The watch that celebrates life."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.5,
+      "category": "apparel",
+      "company": "Lafuma",
+      "slogan": "We all live these moments!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "apparel",
+      "company": "Piaget SA",
+      "slogan": "At the world’s finest jewellers."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.29,
+      "category": "apparel",
+      "company": "Flik Flak",
+      "slogan": "It’s good to be a child."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.5,
+      "category": "apparel",
+      "company": "Victoria's Secret",
+      "slogan": "A Body for Every 'Body'"
+    },
+    {
+      "sentiment": 0.542,
+      "efficacite": 4.84,
+      "category": "apparel",
+      "company": "Fendi",
+      "slogan": "The latest Roman masterpieces"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.53,
+      "category": "apparel",
+      "company": "Gart Sports",
+      "slogan": "Gotta get to Garts!"
+    },
+    {
+      "sentiment": 0.542,
+      "efficacite": 4.82,
+      "category": "apparel",
+      "company": "IWC Watch",
+      "slogan": "good, solid craftsmanship from Schaffhausen."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "apparel",
+      "company": "Triumph International",
+      "slogan": "It's String Time"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "apparel",
+      "company": "Stance",
+      "slogan": "The uncommon thread."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.26,
+      "category": "apparel",
+      "company": "Reebok",
+      "slogan": "I am what I am"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "apparel",
+      "company": "TYR",
+      "slogan": "Always in front."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.7,
+      "category": "apparel",
+      "company": "Breitling Watches",
+      "slogan": "Instruments for Professionals."
+    },
+    {
+      "sentiment": 0.7,
+      "efficacite": 7.1,
+      "category": "apparel",
+      "company": "Thorlos Socks",
+      "slogan": "Better Feet. Better Life."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.0,
+      "category": "apparel",
+      "company": "Fubu",
+      "slogan": "For Us, By Us"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.46,
+      "category": "apparel",
+      "company": "Asprey",
+      "slogan": "It can be done"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.98,
+      "category": "apparel",
+      "company": "Wonderbra",
+      "slogan": "Hello Boys"
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 5.39,
+      "category": "apparel",
+      "company": "Tacori",
+      "slogan": "A symbol of unending love"
+    },
+    {
+      "sentiment": -0.296,
+      "efficacite": 5.07,
+      "category": "apparel",
+      "company": "Ralph Lauren",
+      "slogan": "Made to be worn"
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 4.86,
+      "category": "apparel",
+      "company": "Converse",
+      "slogan": "It’s Converse for Comfort."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "apparel",
+      "company": "Pepe Jeans",
+      "slogan": "Time To Shine"
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 3.16,
+      "category": "apparel",
+      "company": "Pixel Watch",
+      "slogan": "Help by Google"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.95,
+      "category": "apparel",
+      "company": "Lee (jeans)",
+      "slogan": "The jeans that built America."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.55,
+      "category": "apparel",
+      "company": "Thorlo",
+      "slogan": "Moving you since 1980"
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.96,
+      "category": "apparel",
+      "company": "Vacheron Constantin",
+      "slogan": "Do better if possible, and that is always possible"
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 5.25,
+      "category": "apparel",
+      "company": "Asics",
+      "slogan": "Sure beats thick ankles."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.47,
+      "category": "apparel",
+      "company": "H&M",
+      "slogan": "Long live fashion"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.45,
+      "category": "apparel",
+      "company": "Tide",
+      "slogan": "it's got to be tide."
+    },
+    {
+      "sentiment": 0.67,
+      "efficacite": 6.62,
+      "category": "apparel",
+      "company": "H. Samuel",
+      "slogan": "Helps you say it better."
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 5.13,
+      "category": "apparel",
+      "company": "Hush Puppies",
+      "slogan": "Free to be casual."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.55,
+      "category": "apparel",
+      "company": "Li-Ning",
+      "slogan": "Let the Change Occur."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.1,
+      "category": "technology",
+      "company": "Wipro",
+      "slogan": "Applying Thought."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.0,
+      "category": "technology",
+      "company": "118 118",
+      "slogan": "More than just numbers."
+    },
+    {
+      "sentiment": 0.7,
+      "efficacite": 6.55,
+      "category": "technology",
+      "company": "Globe Telecom",
+      "slogan": "Create. Wonderful."
+    },
+    {
+      "sentiment": 0.542,
+      "efficacite": 5.14,
+      "category": "technology",
+      "company": "Compuware",
+      "slogan": "Software Superior by design"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.53,
+      "category": "technology",
+      "company": "iphone",
+      "slogan": "Bigger than bigger."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.33,
+      "category": "technology",
+      "company": "Bright House Networks",
+      "slogan": "Hello tv your way."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "technology",
+      "company": "Qualcomm",
+      "slogan": "Forward Thinking"
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 6.09,
+      "category": "technology",
+      "company": "Beeline",
+      "slogan": "Live on the bright side"
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 3.73,
+      "category": "technology",
+      "company": "MyPhone",
+      "slogan": "be inspired"
+    },
+    {
+      "sentiment": 0.677,
+      "efficacite": 4.28,
+      "category": "technology",
+      "company": "NTL",
+      "slogan": "More choice – Better value."
+    },
+    {
+      "sentiment": 0.557,
+      "efficacite": 5.21,
+      "category": "technology",
+      "company": "Zoom",
+      "slogan": "We deliver happiness"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.56,
+      "category": "technology",
+      "company": "IMAX",
+      "slogan": "Think big"
+    },
+    {
+      "sentiment": 0.382,
+      "efficacite": 3.98,
+      "category": "technology",
+      "company": "NEC",
+      "slogan": "NEC. Empowered by Innovation."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "technology",
+      "company": "Texas Instruments",
+      "slogan": "Timing is everything."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.9,
+      "category": "technology",
+      "company": "Acer",
+      "slogan": "Empowering People."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.41,
+      "category": "technology",
+      "company": "KT Corporation",
+      "slogan": "Let's"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "technology",
+      "company": "Radica",
+      "slogan": "Privacy you control."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.28,
+      "category": "technology",
+      "company": "Yahoo!",
+      "slogan": "Do you… Yahoo!?"
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 7.89,
+      "category": "technology",
+      "company": "AOL",
+      "slogan": "Life needs love. Life needs AOL."
+    },
+    {
+      "sentiment": 0.71,
+      "efficacite": 6.98,
+      "category": "technology",
+      "company": "Double Click",
+      "slogan": "Share Your Success"
+    },
+    {
+      "sentiment": 0.459,
+      "efficacite": 3.46,
+      "category": "technology",
+      "company": "Tiscali",
+      "slogan": "Internet with a passion."
+    },
+    {
+      "sentiment": 0.477,
+      "efficacite": 3.33,
+      "category": "technology",
+      "company": "SAS Institute",
+      "slogan": "SAS, the leader in business intelligence software."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.5,
+      "category": "technology",
+      "company": "Westnet",
+      "slogan": "Service sets us apart."
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 5.94,
+      "category": "technology",
+      "company": "Mozilla Firefox",
+      "slogan": "Your web, the way you like it."
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 5.46,
+      "category": "technology",
+      "company": "Telegram",
+      "slogan": "Telegram will be free forever."
+    },
+    {
+      "sentiment": 0.026,
+      "efficacite": 4.58,
+      "category": "technology",
+      "company": "OpenText",
+      "slogan": "Connect once, reach anything."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.28,
+      "category": "technology",
+      "company": "Huawei",
+      "slogan": "Make it possible."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.11,
+      "category": "technology",
+      "company": "Pentax",
+      "slogan": "Pix your life."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "technology",
+      "company": "Orange UK",
+      "slogan": "Don’t just talk – See."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.28,
+      "category": "technology",
+      "company": "Memorex",
+      "slogan": "Is it live, or is it Memorex?"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.78,
+      "category": "technology",
+      "company": "Software AG",
+      "slogan": "Get there faster."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "technology",
+      "company": "Toshiba",
+      "slogan": "In Touch With Tomorrow."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.3,
+      "category": "technology",
+      "company": "Komatsu",
+      "slogan": "Quality you can rely on."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.47,
+      "category": "technology",
+      "company": "Gigaset",
+      "slogan": "Wherever you go."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.83,
+      "category": "technology",
+      "company": "Lycos",
+      "slogan": "Meet you there."
+    },
+    {
+      "sentiment": 0.178,
+      "efficacite": 3.7,
+      "category": "technology",
+      "company": "Qwest",
+      "slogan": "Spirit of service."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "technology",
+      "company": "eMachines",
+      "slogan": "eMachines is for everyone"
+    },
+    {
+      "sentiment": 0.4,
+      "efficacite": 5.4,
+      "category": "technology",
+      "company": "MobiKwik",
+      "slogan": "The easiest way to pay!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "technology",
+      "company": "Fujitsu",
+      "slogan": "Possibilities are infinite."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 4.05,
+      "category": "technology",
+      "company": "LG",
+      "slogan": "Life's Good."
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 5.44,
+      "category": "technology",
+      "company": "SAP SE",
+      "slogan": "Have fun with SAP."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.33,
+      "category": "technology",
+      "company": "Netflix",
+      "slogan": "See what’s next"
+    },
+    {
+      "sentiment": 0.459,
+      "efficacite": 5.91,
+      "category": "technology",
+      "company": "Shopee",
+      "slogan": "Shop smarter, discover more."
+    },
+    {
+      "sentiment": -0.402,
+      "efficacite": 5.45,
+      "category": "technology",
+      "company": "FileMaker",
+      "slogan": "What’s your problem?"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "technology",
+      "company": "Magix",
+      "slogan": "The multimedia community."
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 5.36,
+      "category": "technology",
+      "company": "Intuit",
+      "slogan": "Complete Financial Confidence."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.88,
+      "category": "technology",
+      "company": "AMD",
+      "slogan": "The future is fusion."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 3.94,
+      "category": "technology",
+      "company": "Carphone Warehouse",
+      "slogan": "For a better mobile life."
+    },
+    {
+      "sentiment": 0.599,
+      "efficacite": 5.29,
+      "category": "technology",
+      "company": "3 Three",
+      "slogan": "We like play."
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 4.88,
+      "category": "technology",
+      "company": "Sprint",
+      "slogan": "Yes you can."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.94,
+      "category": "business",
+      "company": "Tylenol",
+      "slogan": "Feel better, Tylenol"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.43,
+      "category": "business",
+      "company": "Mall of America (MOA)",
+      "slogan": "Always new"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 4.02,
+      "category": "business",
+      "company": "Newport",
+      "slogan": "Newport Pleasure."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.95,
+      "category": "business",
+      "company": "Home Depot",
+      "slogan": "How Doers Get More Done"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.73,
+      "category": "business",
+      "company": "Cartoon Network",
+      "slogan": "New New New New"
+    },
+    {
+      "sentiment": -0.077,
+      "efficacite": 4.33,
+      "category": "business",
+      "company": "Husky (tools)",
+      "slogan": "The toughest name in tools."
+    },
+    {
+      "sentiment": -0.128,
+      "efficacite": 7.4,
+      "category": "business",
+      "company": "DPMS Panther Arms",
+      "slogan": "Built to be as Tough as the Mission Ahead"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.08,
+      "category": "business",
+      "company": "Waterstones",
+      "slogan": "​What's your story?"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "business",
+      "company": "David Jones",
+      "slogan": "One name: endless possibilities"
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 7.69,
+      "category": "business",
+      "company": "StumbleUpon",
+      "slogan": "Discover the Best of the Web"
+    },
+    {
+      "sentiment": -0.176,
+      "efficacite": 5.01,
+      "category": "business",
+      "company": "Target Corporation",
+      "slogan": "Expect More. Pay Less."
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 6.71,
+      "category": "business",
+      "company": "National Express",
+      "slogan": "Love the journey."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.95,
+      "category": "business",
+      "company": "TJ Maxx",
+      "slogan": "You should go"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.06,
+      "category": "business",
+      "company": "West (cigarette)",
+      "slogan": "Let's go West!"
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 5.17,
+      "category": "business",
+      "company": "G4S",
+      "slogan": "Securing your world."
+    },
+    {
+      "sentiment": 0.202,
+      "efficacite": 4.75,
+      "category": "business",
+      "company": "Nick Jr.",
+      "slogan": "Shows Playing & More."
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 4.21,
+      "category": "business",
+      "company": "Kool (cigarette)",
+      "slogan": "Lady be Cool."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.48,
+      "category": "business",
+      "company": "Marlboro (cigarette)",
+      "slogan": "Mild As May."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.3,
+      "category": "business",
+      "company": "Spar",
+      "slogan": "My SPAR, Our Tomorrow"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "business",
+      "company": "Durex",
+      "slogan": "Every Sex Durex"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.96,
+      "category": "business",
+      "company": "David Wilson Homes",
+      "slogan": "Space to live."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.05,
+      "category": "business",
+      "company": "Benson & Hedges",
+      "slogan": "Discover metal."
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 6.27,
+      "category": "business",
+      "company": "Bakers Complete",
+      "slogan": "Now made with fresh meat."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.73,
+      "category": "business",
+      "company": "Walibi Holland",
+      "slogan": "Get The Rush"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.25,
+      "category": "business",
+      "company": "Blackwell's",
+      "slogan": "For learning. For life."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.58,
+      "category": "business",
+      "company": "T-Mobile",
+      "slogan": "Stick Together"
+    },
+    {
+      "sentiment": 0.493,
+      "efficacite": 4.57,
+      "category": "business",
+      "company": "Super Soaker",
+      "slogan": "Wetter Is Better!"
+    },
+    {
+      "sentiment": -0.273,
+      "efficacite": 3.5,
+      "category": "business",
+      "company": "Rimi",
+      "slogan": "Everyday low prices"
+    },
+    {
+      "sentiment": 0.557,
+      "efficacite": 5.21,
+      "category": "business",
+      "company": "Hamlet (cigar)",
+      "slogan": "Happiness will always be a cigar called Hamlet."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.43,
+      "category": "business",
+      "company": "PBS",
+      "slogan": "Be More"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.08,
+      "category": "business",
+      "company": "Farmers",
+      "slogan": "Farmers Your Store."
+    },
+    {
+      "sentiment": 0.761,
+      "efficacite": 5.56,
+      "category": "business",
+      "company": "Colorforms",
+      "slogan": "It's More Fun To Play The Colorforms Way!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.25,
+      "category": "business",
+      "company": "Homebase",
+      "slogan": "Make a house a home."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.55,
+      "category": "business",
+      "company": "Welch's",
+      "slogan": "Let's Fruit Stuff Up"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.77,
+      "category": "business",
+      "company": "Boots",
+      "slogan": "With you, for life."
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 5.47,
+      "category": "business",
+      "company": "Super Fresh",
+      "slogan": "We are the Force Behind Fresh"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.2,
+      "category": "business",
+      "company": "Pottery Barn",
+      "slogan": "Bedrooms, Living rooms, Bathrooms"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "business",
+      "company": "C1000",
+      "slogan": "Dat scheelt."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "business",
+      "company": "Chicco",
+      "slogan": "Wherever there’s a baby."
+    },
+    {
+      "sentiment": 0.597,
+      "efficacite": 5.52,
+      "category": "business",
+      "company": "Hope (cigarette)",
+      "slogan": "Choose! It was fun!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.03,
+      "category": "business",
+      "company": "Bickerton (bicycle)",
+      "slogan": "Go bag a Bickerton."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.76,
+      "category": "business",
+      "company": "L&M(Cigarettes)",
+      "slogan": "Open for more."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.33,
+      "category": "business",
+      "company": "Mercer",
+      "slogan": "Based on reality."
+    },
+    {
+      "sentiment": 0.477,
+      "efficacite": 4.48,
+      "category": "business",
+      "company": "IGA",
+      "slogan": "Hometown Proud Supermarkets"
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 4.39,
+      "category": "business",
+      "company": "Embassy Records",
+      "slogan": "All the Best from Embassy."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.45,
+      "category": "business",
+      "company": "Manfrotto",
+      "slogan": "Manfrotto Imagine More."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "business",
+      "company": "Wenger",
+      "slogan": "A Swiss Company Since 1893."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.0,
+      "category": "business",
+      "company": "Vogue (magazine)",
+      "slogan": "for the overwhelming minority."
+    },
+    {
+      "sentiment": 0.66,
+      "efficacite": 7.2,
+      "category": "business",
+      "company": "Fresh Step",
+      "slogan": "Smart litter for smart cats."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.58,
+      "category": "business",
+      "company": "Zippo",
+      "slogan": "Zippo. For real."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.05,
+      "category": "company",
+      "company": "Virgin Media",
+      "slogan": "Honey, we shrunk the internet!"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 4.27,
+      "category": "company",
+      "company": "Raytheon",
+      "slogan": "Customer Success is our mission"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 5.77,
+      "category": "company",
+      "company": "Diageo",
+      "slogan": "Celebrating life, every day, everywhere"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "company",
+      "company": "Zellers",
+      "slogan": "Everything from A to Z."
+    },
+    {
+      "sentiment": 0.273,
+      "efficacite": 4.52,
+      "category": "company",
+      "company": "Aramco",
+      "slogan": "Energy to the World."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "company",
+      "company": "Fisher-Price",
+      "slogan": "Oh, The Possibilities."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.47,
+      "category": "company",
+      "company": "Natuzzi",
+      "slogan": "It’s how you live"
+    },
+    {
+      "sentiment": -0.296,
+      "efficacite": 4.3,
+      "category": "company",
+      "company": "Schick",
+      "slogan": "Be You. No One Else Can."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "company",
+      "company": "United States Marine Corps",
+      "slogan": "The Few.The Proud.The Marines."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "company",
+      "company": "Sansui",
+      "slogan": "Only hi-fi, everything hi-fi."
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 5.02,
+      "category": "company",
+      "company": "Radio Nova (France)",
+      "slogan": "The Great Mix"
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 7.24,
+      "category": "company",
+      "company": "AutoNation",
+      "slogan": "Go Be Great"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 4.78,
+      "category": "company",
+      "company": "Gymboree",
+      "slogan": "One big happy."
+    },
+    {
+      "sentiment": -0.25,
+      "efficacite": 4.75,
+      "category": "company",
+      "company": "Maille",
+      "slogan": "Maille alone suits me"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "company",
+      "company": "Boost Mobile",
+      "slogan": "Where you at?"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.58,
+      "category": "company",
+      "company": "Tenneco",
+      "slogan": "Our Mission is GO."
+    },
+    {
+      "sentiment": 0.586,
+      "efficacite": 7.54,
+      "category": "company",
+      "company": "SLAM!",
+      "slogan": "Play Music, Play Life"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "company",
+      "company": "Amtrak",
+      "slogan": "Sometimes you need options."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.08,
+      "category": "company",
+      "company": "CKOI-FM",
+      "slogan": "Changing the world one hit at a time"
+    },
+    {
+      "sentiment": 0.557,
+      "efficacite": 5.91,
+      "category": "company",
+      "company": "PricewaterhouseCoopers",
+      "slogan": "Building relationships creating value"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 5.7,
+      "category": "company",
+      "company": "Chiquita Brands International",
+      "slogan": "Quite Possibly, the World's Perfect Food."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.53,
+      "category": "company",
+      "company": "Timken",
+      "slogan": "Where you turn."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "company",
+      "company": "Europe 1",
+      "slogan": "Europe 1, Écoutez le monde changer"
+    },
+    {
+      "sentiment": 0.053,
+      "efficacite": 5.65,
+      "category": "company",
+      "company": "Volkl Ski Equipment",
+      "slogan": "It’s that kind of feeling"
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 6.71,
+      "category": "company",
+      "company": "Island Company",
+      "slogan": "Run away. Fall in love. Never return."
+    },
+    {
+      "sentiment": 0.151,
+      "efficacite": 4.65,
+      "category": "company",
+      "company": "Viactiv",
+      "slogan": "the nutrition women want!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.69,
+      "category": "company",
+      "company": "99 Cents Only Stores",
+      "slogan": "Do the 99"
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.19,
+      "category": "company",
+      "company": "Qmusic",
+      "slogan": "Q sounds better with you"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.03,
+      "category": "company",
+      "company": "Unisys",
+      "slogan": "Imagine it. Done."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.52,
+      "category": "company",
+      "company": "Danaher",
+      "slogan": "Building Businesses."
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 4.07,
+      "category": "company",
+      "company": "Esterbrook",
+      "slogan": "America’s original pen company"
+    },
+    {
+      "sentiment": 0.459,
+      "efficacite": 5.16,
+      "category": "company",
+      "company": "Waitrose",
+      "slogan": "Quality food, honestly priced."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "company",
+      "company": "Wolf Appliances",
+      "slogan": "Discovery, Fueled by Wolf"
+    },
+    {
+      "sentiment": 0.459,
+      "efficacite": 5.96,
+      "category": "company",
+      "company": "Cuisinart",
+      "slogan": "From a Savory beginning to a Sweet ending"
+    },
+    {
+      "sentiment": 0.681,
+      "efficacite": 6.08,
+      "category": "company",
+      "company": "Adani Group",
+      "slogan": "Growth with Goodness."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "company",
+      "company": "Humana",
+      "slogan": "Guidance when you need it most."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 7.49,
+      "category": "company",
+      "company": "Aramark",
+      "slogan": "Managed Services, Managed Better"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.1,
+      "category": "company",
+      "company": "Amway",
+      "slogan": "We’re Listening"
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 4.19,
+      "category": "company",
+      "company": "Braun",
+      "slogan": "Design desire."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.85,
+      "category": "company",
+      "company": "Dixons",
+      "slogan": "The future for less."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "company",
+      "company": "Steiff",
+      "slogan": "The world's most famous bears."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.95,
+      "category": "company",
+      "company": "Lenovo",
+      "slogan": "New World. New Thinking."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.05,
+      "category": "company",
+      "company": "Neiman Marcus",
+      "slogan": "Fashion’s premier designers"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.95,
+      "category": "company",
+      "company": "Makita",
+      "slogan": "Power tools for the long run."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.93,
+      "category": "company",
+      "company": "AbbVie",
+      "slogan": "Putting our people first."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "company",
+      "company": "RadioNL",
+      "slogan": "I Listen Holland"
+    },
+    {
+      "sentiment": -0.273,
+      "efficacite": 4.07,
+      "category": "company",
+      "company": "Save-A-Lot Food Stores",
+      "slogan": "Low Price Grocery Stores"
+    },
+    {
+      "sentiment": 0.25,
+      "efficacite": 4.92,
+      "category": "company",
+      "company": "Olympus Corporation",
+      "slogan": "Your Vision, Our Future."
+    },
+    {
+      "sentiment": 0.077,
+      "efficacite": 5.88,
+      "category": "company",
+      "company": "Aetna",
+      "slogan": "We want you to know."
+    },
+    {
+      "sentiment": 0.526,
+      "efficacite": 5.48,
+      "category": "company",
+      "company": "Craftsman",
+      "slogan": "America's most trusted tool brand."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.0,
+      "category": "cosmetics",
+      "company": "Dial",
+      "slogan": "Healthier skin. Healthier you."
+    },
+    {
+      "sentiment": 0.599,
+      "efficacite": 5.0,
+      "category": "cosmetics",
+      "company": "Crest Whitestrips",
+      "slogan": "Now that is beautiful."
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 5.25,
+      "category": "cosmetics",
+      "company": "Ivory Soap",
+      "slogan": "​Pure clean, pure Ivory."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "cosmetics",
+      "company": "Imperial Leather",
+      "slogan": "The name says it all."
+    },
+    {
+      "sentiment": 0.226,
+      "efficacite": 4.58,
+      "category": "cosmetics",
+      "company": "L'Oreal",
+      "slogan": "Because You’re Worth It."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.3,
+      "category": "cosmetics",
+      "company": "Neutrogena",
+      "slogan": "Break the Breakout cycle."
+    },
+    {
+      "sentiment": 0.599,
+      "efficacite": 5.75,
+      "category": "cosmetics",
+      "company": "Camay",
+      "slogan": "beautiful complexion at every age."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.08,
+      "category": "cosmetics",
+      "company": "Timotei",
+      "slogan": "So mild you can wash your hair"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.31,
+      "category": "cosmetics",
+      "company": "European Wax Center",
+      "slogan": "Waxing for all"
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 4.47,
+      "category": "cosmetics",
+      "company": "Beiersdorf",
+      "slogan": "We care"
+    },
+    {
+      "sentiment": 0.586,
+      "efficacite": 5.56,
+      "category": "cosmetics",
+      "company": "Lancôme",
+      "slogan": "Believe in Beauty"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 4.97,
+      "category": "cosmetics",
+      "company": "Dove",
+      "slogan": "Dove cleans beautifully."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.0,
+      "category": "cosmetics",
+      "company": "Gleem",
+      "slogan": "Teeth aren’t white until they gleem."
+    },
+    {
+      "sentiment": 0.599,
+      "efficacite": 5.0,
+      "category": "cosmetics",
+      "company": "Ulta Beauty",
+      "slogan": "The Possibilities are Beautiful."
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 6.41,
+      "category": "cosmetics",
+      "company": "Impulse",
+      "slogan": "Love every bit."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.04,
+      "category": "cosmetics",
+      "company": "Rexona",
+      "slogan": "It won't let you down"
+    },
+    {
+      "sentiment": 0.636,
+      "efficacite": 7.04,
+      "category": "cosmetics",
+      "company": "Amorepacific",
+      "slogan": "We make a more beautiful world"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.5,
+      "category": "cosmetics",
+      "company": "Kryolan",
+      "slogan": "Make-up is a science."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.6,
+      "category": "cosmetics",
+      "company": "TRESemme",
+      "slogan": "Professional at your fingertips."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.54,
+      "category": "cosmetics",
+      "company": "Aquafresh",
+      "slogan": "Feel good protection."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.96,
+      "category": "cosmetics",
+      "company": "Lifebuoy",
+      "slogan": "body odor"
+    },
+    {
+      "sentiment": -0.658,
+      "efficacite": 6.91,
+      "category": "cosmetics",
+      "company": "Arrid",
+      "slogan": "Stress stinks! Arrid works!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.25,
+      "category": "cosmetics",
+      "company": "Mitchum",
+      "slogan": "for when you're really sweating!"
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 4.14,
+      "category": "cosmetics",
+      "company": "No7",
+      "slogan": "Ready for more."
+    },
+    {
+      "sentiment": 0.382,
+      "efficacite": 4.43,
+      "category": "cosmetics",
+      "company": "Roc Skincare",
+      "slogan": "We keep our promises"
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 5.23,
+      "category": "cosmetics",
+      "company": "Sanex",
+      "slogan": "Keep Skin Healthy"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.12,
+      "category": "cosmetics",
+      "company": "Nexxus",
+      "slogan": "Raise your standard"
+    },
+    {
+      "sentiment": -0.791,
+      "efficacite": 6.76,
+      "category": "cosmetics",
+      "company": "Listerine",
+      "slogan": "Kills germs that cause bad breath"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "cosmetics",
+      "company": "Jil Sander Sun",
+      "slogan": "Summer inside you"
+    },
+    {
+      "sentiment": 0.133,
+      "efficacite": 4.16,
+      "category": "cosmetics",
+      "company": "Clear (shampoo)",
+      "slogan": "Nothing to Hide."
+    },
+    {
+      "sentiment": 0.727,
+      "efficacite": 7.33,
+      "category": "cosmetics",
+      "company": "Clinique",
+      "slogan": "Great Skin Can Be Created"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "cosmetics",
+      "company": "Shiseido",
+      "slogan": "An Astonishing Relationship"
+    },
+    {
+      "sentiment": 0.25,
+      "efficacite": 5.6,
+      "category": "cosmetics",
+      "company": "Kérastase",
+      "slogan": "Give your hair a second chance"
+    },
+    {
+      "sentiment": 0.823,
+      "efficacite": 7.92,
+      "category": "cosmetics",
+      "company": "Aveda",
+      "slogan": "Beauty is as beauty does."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.4,
+      "category": "cosmetics",
+      "company": "Garnier",
+      "slogan": "By Garnier, Naturally"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "cosmetics",
+      "company": "Euthymol",
+      "slogan": "For the freshest mouth ever"
+    },
+    {
+      "sentiment": 0.848,
+      "efficacite": 4.85,
+      "category": "cosmetics",
+      "company": "Innisfree",
+      "slogan": "clean nature and healthy beauty."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.76,
+      "category": "cosmetics",
+      "company": "Curel Lotion",
+      "slogan": "Get the Curel."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.19,
+      "category": "cosmetics",
+      "company": "Piz Buin",
+      "slogan": "Life is better in the sun."
+    },
+    {
+      "sentiment": 0.649,
+      "efficacite": 5.34,
+      "category": "cosmetics",
+      "company": "Clean & Clear",
+      "slogan": "Clean & Clear and under control."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.25,
+      "category": "cosmetics",
+      "company": "Rimmel",
+      "slogan": "Live the London Look"
+    },
+    {
+      "sentiment": 0.681,
+      "efficacite": 4.46,
+      "category": "cosmetics",
+      "company": "Dr. Scheller Cosmetics",
+      "slogan": "Natural & effective"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "cosmetics",
+      "company": "Max Factor",
+      "slogan": "Makeup with attitude."
+    },
+    {
+      "sentiment": 0.681,
+      "efficacite": 7.63,
+      "category": "cosmetics",
+      "company": "Guerlain",
+      "slogan": "Kiss Kiss maxi shine"
+    },
+    {
+      "sentiment": -0.477,
+      "efficacite": 4.47,
+      "category": "cosmetics",
+      "company": "Radox",
+      "slogan": "Be selfish."
+    },
+    {
+      "sentiment": 0.382,
+      "efficacite": 3.88,
+      "category": "cosmetics",
+      "company": "Colgate",
+      "slogan": "Stronger, healthier gums."
+    },
+    {
+      "sentiment": -0.103,
+      "efficacite": 3.38,
+      "category": "cosmetics",
+      "company": "Axe",
+      "slogan": "The Axe Effect."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.55,
+      "category": "cosmetics",
+      "company": "Coty Perfume",
+      "slogan": "Try being more of a woman!"
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 4.99,
+      "category": "cosmetics",
+      "company": "Hugo Boss",
+      "slogan": "Don’t imitate, innovate."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.55,
+      "category": "cosmetics",
+      "company": "Speed Stick",
+      "slogan": "Don’t sweat it. Handle it."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.58,
+      "category": "household",
+      "company": "JennAir",
+      "slogan": "Bound by Nothing"
+    },
+    {
+      "sentiment": 0.459,
+      "efficacite": 5.09,
+      "category": "household",
+      "company": "Pyrex",
+      "slogan": "Clever cooking."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.2,
+      "category": "household",
+      "company": "Andrex",
+      "slogan": "How Andrex do you feel?"
+    },
+    {
+      "sentiment": 0.742,
+      "efficacite": 6.32,
+      "category": "household",
+      "company": "Stomatol",
+      "slogan": "the only way to obtain healthy and strong teeth!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.99,
+      "category": "household",
+      "company": "PlayStation",
+      "slogan": "eNoS Lives."
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 7.89,
+      "category": "household",
+      "company": "Hillarys Blinds",
+      "slogan": "You’ll love what we do."
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 6.79,
+      "category": "household",
+      "company": "Windex",
+      "slogan": "Streak free shine"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.8,
+      "category": "household",
+      "company": "PhoneWatch",
+      "slogan": "Protection powered by people."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.11,
+      "category": "household",
+      "company": "Sikkens",
+      "slogan": "The right colour."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.12,
+      "category": "household",
+      "company": "Black Flag",
+      "slogan": "Control your world."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "household",
+      "company": "Neff GmbH",
+      "slogan": "all around heat is more."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.55,
+      "category": "household",
+      "company": "Breville",
+      "slogan": "We’re Food Thinkers!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.55,
+      "category": "household",
+      "company": "Pepsodent",
+      "slogan": "Gets Your Teeth Their Whitest."
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 5.09,
+      "category": "household",
+      "company": "Rowenta",
+      "slogan": "Enjoy Technology"
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 4.9,
+      "category": "household",
+      "company": "Pine-Sol",
+      "slogan": "The scent o’ real clean."
+    },
+    {
+      "sentiment": 0.599,
+      "efficacite": 6.55,
+      "category": "household",
+      "company": "Jetmaster",
+      "slogan": "Fires for a warm welcome home"
+    },
+    {
+      "sentiment": -0.42,
+      "efficacite": 4.97,
+      "category": "household",
+      "company": "OxiClean",
+      "slogan": "Stain fighting power!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.08,
+      "category": "household",
+      "company": "American Tourister",
+      "slogan": "Take on the world."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "household",
+      "company": "Ziploc",
+      "slogan": "Life needs Ziploc"
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 4.49,
+      "category": "household",
+      "company": "Ecos Detergents",
+      "slogan": "Earth Friendly Products"
+    },
+    {
+      "sentiment": 0.34,
+      "efficacite": 5.84,
+      "category": "household",
+      "company": "Sadolin",
+      "slogan": "If you value your wood."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.47,
+      "category": "household",
+      "company": "Lysol",
+      "slogan": "Healthing"
+    },
+    {
+      "sentiment": 0.599,
+      "efficacite": 5.8,
+      "category": "household",
+      "company": "Mr Sheen",
+      "slogan": "Sparkling Clean"
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 7.89,
+      "category": "household",
+      "company": "Hillarys",
+      "slogan": "You’ll love what we do."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "household",
+      "company": "Royal Doulton",
+      "slogan": "Gifts that say it all."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.62,
+      "category": "household",
+      "company": "Spray’N Wash",
+      "slogan": "The power of pink."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.0,
+      "category": "household",
+      "company": "FLIT",
+      "slogan": "Quick, Henry, the Flit!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.79,
+      "category": "household",
+      "company": "Zyliss",
+      "slogan": "Zig-Zig Zyliss"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.95,
+      "category": "household",
+      "company": "Prestige",
+      "slogan": "You can’t have too much."
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 5.41,
+      "category": "household",
+      "company": "Bissell",
+      "slogan": "We mean clean."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.08,
+      "category": "household",
+      "company": "Zoflora",
+      "slogan": "The flowerful one."
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 6.06,
+      "category": "household",
+      "company": "Febreze",
+      "slogan": "Breathe happy."
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 6.41,
+      "category": "household",
+      "company": "Tub O' Towels",
+      "slogan": "Stronger – tougher – bigger."
+    },
+    {
+      "sentiment": 0.273,
+      "efficacite": 5.05,
+      "category": "household",
+      "company": "Bernina",
+      "slogan": "Made to create."
+    },
+    {
+      "sentiment": 0.718,
+      "efficacite": 8.07,
+      "category": "household",
+      "company": "Dreft",
+      "slogan": "For a Clean You Can Trust"
+    },
+    {
+      "sentiment": 0.477,
+      "efficacite": 4.41,
+      "category": "household",
+      "company": "Wedgewood",
+      "slogan": "The other side of English elegance."
+    },
+    {
+      "sentiment": 0.659,
+      "efficacite": 8.36,
+      "category": "household",
+      "company": "Cuprinol",
+      "slogan": "Make your garden great!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.45,
+      "category": "household",
+      "company": "Woolite",
+      "slogan": "Clothes look new for longer."
+    },
+    {
+      "sentiment": 0.34,
+      "efficacite": 4.29,
+      "category": "household",
+      "company": "Kubota",
+      "slogan": "Everything you value."
+    },
+    {
+      "sentiment": 0.541,
+      "efficacite": 6.19,
+      "category": "household",
+      "company": "Handi Wipes",
+      "slogan": "Rinse. Reuse. Reduce. And save!"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 4.72,
+      "category": "household",
+      "company": "WMF Group",
+      "slogan": "Feel Perfection"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.58,
+      "category": "household",
+      "company": "d-CON",
+      "slogan": "More power to you."
+    },
+    {
+      "sentiment": -0.44,
+      "efficacite": 4.53,
+      "category": "household",
+      "company": "Sebo",
+      "slogan": "Tough on dirt."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "household",
+      "company": "Calgon",
+      "slogan": "Calgon, take me away!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.83,
+      "category": "household",
+      "company": "Al-Ko",
+      "slogan": "Quality for life."
+    },
+    {
+      "sentiment": -0.67,
+      "efficacite": 5.51,
+      "category": "household",
+      "company": "Dirt Devil",
+      "slogan": "Fight Dirty"
+    },
+    {
+      "sentiment": 0.226,
+      "efficacite": 4.73,
+      "category": "household",
+      "company": "Kiwi (shoe polish)",
+      "slogan": "Make a lasting impression"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.83,
+      "category": "household",
+      "company": "Phostrogen",
+      "slogan": "See the difference"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "household",
+      "company": "Liquid-Plumr",
+      "slogan": "Hungry for clogs."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.33,
+      "category": "household",
+      "company": "Fairy",
+      "slogan": "Sink into Fairy"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "financial",
+      "company": "Citibank(Citigroup)",
+      "slogan": "The Citi never sleeps."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.55,
+      "category": "financial",
+      "company": "Barclaycard",
+      "slogan": "Only Barclaycard."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "financial",
+      "company": "Scotiabank",
+      "slogan": "Life. Money. Balance both."
+    },
+    {
+      "sentiment": 0.527,
+      "efficacite": 6.43,
+      "category": "financial",
+      "company": "IndusInd Bank",
+      "slogan": "We Make You Feel Richer."
+    },
+    {
+      "sentiment": 0.077,
+      "efficacite": 5.13,
+      "category": "financial",
+      "company": "AMP Limited",
+      "slogan": "Have the life you want."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.77,
+      "category": "financial",
+      "company": "First National Bank",
+      "slogan": "Serving You Better"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.2,
+      "category": "financial",
+      "company": "Credit Suisse",
+      "slogan": "It's time for an expert."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.28,
+      "category": "financial",
+      "company": "London Stock Exchange",
+      "slogan": "My word is my bond"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.78,
+      "category": "financial",
+      "company": "Royal Bank of Scotland",
+      "slogan": "Make it happen."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.52,
+      "category": "financial",
+      "company": "Barclays",
+      "slogan": "Fluent in finance."
+    },
+    {
+      "sentiment": 0.382,
+      "efficacite": 4.13,
+      "category": "financial",
+      "company": "Mechanics Bank",
+      "slogan": "Commitment That Lasts Generations"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.52,
+      "category": "financial",
+      "company": "Midland Bank",
+      "slogan": "the listening bank."
+    },
+    {
+      "sentiment": 0.421,
+      "efficacite": 5.9,
+      "category": "financial",
+      "company": "Midfirst Bank",
+      "slogan": "True to your money"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.05,
+      "category": "financial",
+      "company": "ICICI Bank",
+      "slogan": "We are there for you."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.23,
+      "category": "financial",
+      "company": "Interior Savings",
+      "slogan": "Ways to Bank"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "financial",
+      "company": "First Horizon",
+      "slogan": "All Things Financial"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.62,
+      "category": "financial",
+      "company": "Charles Schwab",
+      "slogan": "Own Your Tomorrow"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "financial",
+      "company": "Halifax (bank)",
+      "slogan": "It's a people thing"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.58,
+      "category": "financial",
+      "company": "Farmers Insurance Group",
+      "slogan": "We are Farmers."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.83,
+      "category": "financial",
+      "company": "Metro Bank",
+      "slogan": "Moving You Forward"
+    },
+    {
+      "sentiment": 0.296,
+      "efficacite": 5.12,
+      "category": "financial",
+      "company": "Agricultural Bank of China",
+      "slogan": "Helping you grow"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 7.0,
+      "category": "financial",
+      "company": "Meridian Credit Union",
+      "slogan": "Your money. Your way. Imagine that."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "financial",
+      "company": "Pinnacle Bank",
+      "slogan": "One Bank for Life"
+    },
+    {
+      "sentiment": 0.459,
+      "efficacite": 3.23,
+      "category": "financial",
+      "company": "Sunmark FCU",
+      "slogan": "Life With Interest"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.16,
+      "category": "financial",
+      "company": "First Citizens Bank",
+      "slogan": "We put you First."
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 6.72,
+      "category": "financial",
+      "company": "Federal Bank",
+      "slogan": "Your perfect banking partner"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.8,
+      "category": "financial",
+      "company": "Transamerica",
+      "slogan": "Transform tomorrow."
+    },
+    {
+      "sentiment": -0.202,
+      "efficacite": 3.25,
+      "category": "financial",
+      "company": "Westpac",
+      "slogan": "Unstoppable You"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 7.02,
+      "category": "financial",
+      "company": "Norwich Union",
+      "slogan": "Let us quote you happy."
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 5.57,
+      "category": "financial",
+      "company": "Access (credit card)",
+      "slogan": "Your flexible friend."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.55,
+      "category": "financial",
+      "company": "Idaho Central Credit Union",
+      "slogan": "Expect More."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.05,
+      "category": "financial",
+      "company": "ABSA Group Limited",
+      "slogan": "Bringing possibility to life."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.61,
+      "category": "financial",
+      "company": "Standard Chartered Bank",
+      "slogan": "Your Right Partner"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "financial",
+      "company": "MetLife",
+      "slogan": "For the if in life."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "financial",
+      "company": "Yorkshire Bank",
+      "slogan": "Always thinking."
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 4.1,
+      "category": "financial",
+      "company": "AXA",
+      "slogan": "Be Life Confident"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.54,
+      "category": "financial",
+      "company": "BancorpSouth",
+      "slogan": "Right where you are."
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 3.49,
+      "category": "financial",
+      "company": "BBCN Bank",
+      "slogan": "Strength in Partnership"
+    },
+    {
+      "sentiment": 0.421,
+      "efficacite": 4.46,
+      "category": "financial",
+      "company": "Banque Populaire",
+      "slogan": "A Bank and popular at the same time."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.5,
+      "category": "financial",
+      "company": "Freddie Mac",
+      "slogan": "We make home possible."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.04,
+      "category": "financial",
+      "company": "Guaranty Bank",
+      "slogan": "We Respond!"
+    },
+    {
+      "sentiment": 0.382,
+      "efficacite": 4.18,
+      "category": "financial",
+      "company": "Golden 1 Credit Union",
+      "slogan": "Stronger Together"
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 5.4,
+      "category": "financial",
+      "company": "RuPay",
+      "slogan": "Made of Billion Dreams."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 6.12,
+      "category": "financial",
+      "company": "New York Life Insurance Company",
+      "slogan": "Keep good going."
+    },
+    {
+      "sentiment": 0.273,
+      "efficacite": 6.52,
+      "category": "financial",
+      "company": "Numerica Credit Union",
+      "slogan": "Life moves. Live well."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.2,
+      "category": "financial",
+      "company": "Community Bank",
+      "slogan": "Our name really does it all"
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 3.85,
+      "category": "financial",
+      "company": "Alaska USA Federal Credit Union",
+      "slogan": "Service Values Convenience"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.92,
+      "category": "financial",
+      "company": "John Hancock",
+      "slogan": "The future is yours."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "financial",
+      "company": "Bank of the West",
+      "slogan": "Go West."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "financial",
+      "company": "Commerzbank",
+      "slogan": "Ideas ahead."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.25,
+      "category": "tours",
+      "company": "Indian Trails",
+      "slogan": "We're going your way."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.26,
+      "category": "tours",
+      "company": "Wallace Arnold",
+      "slogan": "We go further."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.9,
+      "category": "tours",
+      "company": "Seabourn Cruise Line",
+      "slogan": "Seabourn. Intimate. Luxury."
+    },
+    {
+      "sentiment": 0.296,
+      "efficacite": 4.32,
+      "category": "tours",
+      "company": "Rhode Island",
+      "slogan": "Cooler and warmer"
+    },
+    {
+      "sentiment": 0.778,
+      "efficacite": 4.18,
+      "category": "tours",
+      "company": "Georgia",
+      "slogan": "Wisdom Justice Moderation"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "tours",
+      "company": "Avalon Waterways",
+      "slogan": "This Is How You Europe"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.7,
+      "category": "tours",
+      "company": "ThamesLink",
+      "slogan": "ThamesLink. Just think."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.62,
+      "category": "tours",
+      "company": "Morocco",
+      "slogan": "Travel for real."
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 5.54,
+      "category": "tours",
+      "company": "TUI Group",
+      "slogan": "Discover your smile"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.4,
+      "category": "tours",
+      "company": "Australia national tourist board",
+      "slogan": "Australia. A different light"
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 3.96,
+      "category": "tours",
+      "company": "AAT Kings",
+      "slogan": "Best under the New Zealand sky"
+    },
+    {
+      "sentiment": 0.178,
+      "efficacite": 5.58,
+      "category": "tours",
+      "company": "Cumbria",
+      "slogan": "Escape the everyday."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.52,
+      "category": "tours",
+      "company": "Mississippi",
+      "slogan": "By Valor and Arms"
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 3.5,
+      "category": "tours",
+      "company": "Direct Holidays",
+      "slogan": "Same holiday for less."
+    },
+    {
+      "sentiment": -0.338,
+      "efficacite": 4.89,
+      "category": "tours",
+      "company": "Irish Ferries",
+      "slogan": "The low fares ferry company!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.33,
+      "category": "tours",
+      "company": "Aircoach",
+      "slogan": "Travel in luxury."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "tours",
+      "company": "Hawaii",
+      "slogan": "The Islands of Aloha"
+    },
+    {
+      "sentiment": 0.077,
+      "efficacite": 3.95,
+      "category": "tours",
+      "company": "Maryland Tourism",
+      "slogan": "No Other Tool Like It."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.05,
+      "category": "tours",
+      "company": "Silversea Cruises",
+      "slogan": "Intimate Italian cruising."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.95,
+      "category": "tours",
+      "company": "NorthLink Ferries",
+      "slogan": "Here to get you there."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.58,
+      "category": "tours",
+      "company": "Hong Kong Tourism Board (HKTB)",
+      "slogan": "Hong Kong will take your breath away!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.45,
+      "category": "tours",
+      "company": "Renaissance Hotels",
+      "slogan": "Live Life to Discover"
+    },
+    {
+      "sentiment": 0.527,
+      "efficacite": 3.93,
+      "category": "tours",
+      "company": "Delaware",
+      "slogan": "Liberty and Independence"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.38,
+      "category": "tours",
+      "company": "Australia",
+      "slogan": "A different life."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.8,
+      "category": "tours",
+      "company": "Sealink",
+      "slogan": "Your shortest road to Ireland."
+    },
+    {
+      "sentiment": 0.178,
+      "efficacite": 3.68,
+      "category": "tours",
+      "company": "Norway Tourism",
+      "slogan": "Norway. A Pure Escape."
+    },
+    {
+      "sentiment": 0.66,
+      "efficacite": 5.38,
+      "category": "tours",
+      "company": "Florida",
+      "slogan": "In God We Trust"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.8,
+      "category": "tours",
+      "company": "Oklahoma",
+      "slogan": "Labour Conquers All Things"
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 6.02,
+      "category": "tours",
+      "company": "Bournemouth",
+      "slogan": "A great place to meet."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.41,
+      "category": "tours",
+      "company": "Utah",
+      "slogan": "Industry"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.03,
+      "category": "tours",
+      "company": "Wightlink",
+      "slogan": "Key to the island."
+    },
+    {
+      "sentiment": 0.421,
+      "efficacite": 6.47,
+      "category": "tours",
+      "company": "Kentucky",
+      "slogan": "United we stand, divided we fall"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.54,
+      "category": "tours",
+      "company": "Florida",
+      "slogan": "See you soon."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.82,
+      "category": "tours",
+      "company": "Newcastle Airport",
+      "slogan": "Your airport."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.5,
+      "category": "tours",
+      "company": "Arriva Sapphire",
+      "slogan": "Get there in style with Arriva"
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 5.64,
+      "category": "tours",
+      "company": "Singapore Changi Airport",
+      "slogan": "Enjoy the experience."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.22,
+      "category": "tours",
+      "company": "lastminute.com",
+      "slogan": "Stories start here."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.05,
+      "category": "tours",
+      "company": "Munich Airport",
+      "slogan": "Service nonstop."
+    },
+    {
+      "sentiment": 0.361,
+      "efficacite": 6.19,
+      "category": "tours",
+      "company": "Iowa",
+      "slogan": "You Make Me Smile"
+    },
+    {
+      "sentiment": 0.509,
+      "efficacite": 5.68,
+      "category": "tours",
+      "company": "Apollo Travel",
+      "slogan": "Get the passion!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "tours",
+      "company": "Spanish Tourist Board",
+      "slogan": "Spain Marks."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.79,
+      "category": "tours",
+      "company": "Expedia",
+      "slogan": "Don’t just travel. Travel right."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.48,
+      "category": "tours",
+      "company": "Vienna International Airport",
+      "slogan": "Open for new horizons."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.58,
+      "category": "tours",
+      "company": "Nevada",
+      "slogan": "All for Our Country"
+    },
+    {
+      "sentiment": 0.459,
+      "efficacite": 3.73,
+      "category": "tours",
+      "company": "Heathrow Express",
+      "slogan": "The smarter way."
+    },
+    {
+      "sentiment": 0.735,
+      "efficacite": 4.14,
+      "category": "tours",
+      "company": "Pennsylvania",
+      "slogan": "Virtue, Liberty & Independence"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.4,
+      "category": "tours",
+      "company": "Greece",
+      "slogan": "Experience life."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.54,
+      "category": "tours",
+      "company": "Princess Cruises",
+      "slogan": "Come back new."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.45,
+      "category": "tours",
+      "company": "Barbados",
+      "slogan": "Where life is for living."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.1,
+      "category": "tours",
+      "company": "Connecticut",
+      "slogan": "Still Revolutionary"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.5,
+      "category": "airlines",
+      "company": "British Airways",
+      "slogan": "Fly the British way."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "airlines",
+      "company": "AirTran Airways",
+      "slogan": "It's something else."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "airlines",
+      "company": "Interjet",
+      "slogan": "Volando en tu misma dirección"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "airlines",
+      "company": "Air France",
+      "slogan": "France is in the air."
+    },
+    {
+      "sentiment": 0.178,
+      "efficacite": 3.63,
+      "category": "airlines",
+      "company": "Ethiopian Airlines",
+      "slogan": "The New Spirit of Africa."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.65,
+      "category": "airlines",
+      "company": "Air Europa",
+      "slogan": "Because everybody can fly."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.1,
+      "category": "airlines",
+      "company": "Air Italy",
+      "slogan": "Imagine The World Differently."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 4.68,
+      "category": "airlines",
+      "company": "Emirates (airline)",
+      "slogan": "Fly Better."
+    },
+    {
+      "sentiment": 0.248,
+      "efficacite": 4.57,
+      "category": "airlines",
+      "company": "Spirit Airlines",
+      "slogan": "Catch the Spirit!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.22,
+      "category": "airlines",
+      "company": "Wizz Air",
+      "slogan": "Now we can all fly."
+    },
+    {
+      "sentiment": 0.421,
+      "efficacite": 5.97,
+      "category": "airlines",
+      "company": "Eva Air",
+      "slogan": "Sharing the World, Flying Together."
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 5.7,
+      "category": "airlines",
+      "company": "Lufthansa",
+      "slogan": "Say yes to the world."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "airlines",
+      "company": "LOT Polish Airlines",
+      "slogan": "You choose the direction."
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 5.66,
+      "category": "airlines",
+      "company": "Air Jamaica",
+      "slogan": "Love is in the air."
+    },
+    {
+      "sentiment": 0.459,
+      "efficacite": 5.46,
+      "category": "airlines",
+      "company": "Malindo Air",
+      "slogan": "Smarter Way to Travel"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.05,
+      "category": "airlines",
+      "company": "Qatar Airways",
+      "slogan": "Worlds 5 Star Airline."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.3,
+      "category": "airlines",
+      "company": "Summit Airlines",
+      "slogan": "For all your cargo moves."
+    },
+    {
+      "sentiment": 0.75,
+      "efficacite": 6.3,
+      "category": "airlines",
+      "company": "BOAC",
+      "slogan": "Takes good care of you businessmen!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.3,
+      "category": "airlines",
+      "company": "Scenic Airlines",
+      "slogan": "Gateway to the National Parks and beyond!"
+    },
+    {
+      "sentiment": 0.273,
+      "efficacite": 4.1,
+      "category": "airlines",
+      "company": "Cathay Pacific Airways",
+      "slogan": "Life Well Travelled"
+    },
+    {
+      "sentiment": 0.421,
+      "efficacite": 5.82,
+      "category": "airlines",
+      "company": "Pegasus Airlines",
+      "slogan": "The easiest way to fly."
+    },
+    {
+      "sentiment": -0.296,
+      "efficacite": 3.8,
+      "category": "airlines",
+      "company": "Virgin Atlantic",
+      "slogan": "No ordinary airline."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.53,
+      "category": "airlines",
+      "company": "Thai Airways",
+      "slogan": "Smooth as Silk."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 4.79,
+      "category": "airlines",
+      "company": "MaxJet",
+      "slogan": "It’s just good business."
+    },
+    {
+      "sentiment": 0.318,
+      "efficacite": 4.84,
+      "category": "airlines",
+      "company": "Fly Blue Crane",
+      "slogan": "A fresh approach."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.3,
+      "category": "airlines",
+      "company": "Kuwait Airways",
+      "slogan": "Where east meets west."
+    },
+    {
+      "sentiment": 0.586,
+      "efficacite": 5.21,
+      "category": "airlines",
+      "company": "Jet Airways",
+      "slogan": "The Joy of Flying."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.4,
+      "category": "airlines",
+      "company": "Lauda",
+      "slogan": "The Lauda way to fly."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.3,
+      "category": "airlines",
+      "company": "Cargolux",
+      "slogan": "World class. Worldwide."
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 5.2,
+      "category": "airlines",
+      "company": "Norwegian Air Shuttle",
+      "slogan": "Fly smart."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 6.19,
+      "category": "airlines",
+      "company": "TransPennine Express",
+      "slogan": "Better by far, not by car."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.08,
+      "category": "airlines",
+      "company": "Finnair",
+      "slogan": "Designed for you, or The Nordic Way."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "airlines",
+      "company": "Bangkok Airways",
+      "slogan": "Asia's Boutique Airline."
+    },
+    {
+      "sentiment": -0.296,
+      "efficacite": 4.82,
+      "category": "airlines",
+      "company": "Ansett Australia",
+      "slogan": "No one aims higher."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.11,
+      "category": "airlines",
+      "company": "JetBlue Airways",
+      "slogan": "You Above All."
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 3.57,
+      "category": "airlines",
+      "company": "Korean Air",
+      "slogan": "Excellence in Flight."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.8,
+      "category": "airlines",
+      "company": "Cebu Pacific",
+      "slogan": "Let's Take to the Sky"
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.64,
+      "category": "airlines",
+      "company": "Blue Air",
+      "slogan": "The Better Way to Fly"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.31,
+      "category": "airlines",
+      "company": "Air Berlin",
+      "slogan": "Your Airline"
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.94,
+      "category": "airlines",
+      "company": "Learjet",
+      "slogan": "Making every drive better"
+    },
+    {
+      "sentiment": 0.477,
+      "efficacite": 5.17,
+      "category": "airlines",
+      "company": "Nok Air",
+      "slogan": "We Fly Smiles"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.0,
+      "category": "airlines",
+      "company": "Mexicana Air Cargo",
+      "slogan": "For freight that can’t wait."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "airlines",
+      "company": "Avianca",
+      "slogan": "It's For You."
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 5.07,
+      "category": "airlines",
+      "company": "Air Zimbabwe",
+      "slogan": "Fast and friendly."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "airlines",
+      "company": "North Central Airlines",
+      "slogan": "Route of the Northliners."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.22,
+      "category": "airlines",
+      "company": "Hawaiian Airlines",
+      "slogan": "Hawaii Starts Here."
+    },
+    {
+      "sentiment": 0.178,
+      "efficacite": 3.18,
+      "category": "airlines",
+      "company": "Qantas",
+      "slogan": "The Spirit Of Australia"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "airlines",
+      "company": "Garuda Indonesia",
+      "slogan": "The Airline of Indonesia."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "airlines",
+      "company": "Nippon Cargo Airlines",
+      "slogan": "Service you can depend on."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.7,
+      "category": "airlines",
+      "company": "Iberia airline",
+      "slogan": "And tomorrow, can you imagine?"
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 3.94,
+      "category": "television-channels-slogan",
+      "company": "Çufo",
+      "slogan": "Where everything is better"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "television-channels-slogan",
+      "company": "A&E (TV network)",
+      "slogan": "We are A&E"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "television-channels-slogan",
+      "company": "Teletoon",
+      "slogan": "The Animation Station"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.0,
+      "category": "television-channels-slogan",
+      "company": "BBC Radio 5 Live",
+      "slogan": "Live news. Live sport."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.5,
+      "category": "television-channels-slogan",
+      "company": "WLII-DT",
+      "slogan": "The one that unites us"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.5,
+      "category": "television-channels-slogan",
+      "company": "ANT1",
+      "slogan": "We Are One"
+    },
+    {
+      "sentiment": 0.772,
+      "efficacite": 6.17,
+      "category": "television-channels-slogan",
+      "company": "Africa Magic",
+      "slogan": "Entertainment loved by Africa"
+    },
+    {
+      "sentiment": 0.509,
+      "efficacite": 6.18,
+      "category": "television-channels-slogan",
+      "company": "Gayelle",
+      "slogan": "Welcome Home!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.94,
+      "category": "television-channels-slogan",
+      "company": "Noggin",
+      "slogan": "Classic Family TV"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "television-channels-slogan",
+      "company": "Mega Channel",
+      "slogan": "Mega as always!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "television-channels-slogan",
+      "company": "Venezolana de Televisión",
+      "slogan": "The Channel of all Venezuelans"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "television-channels-slogan",
+      "company": "Hotstar",
+      "slogan": "every day a sport"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.8,
+      "category": "television-channels-slogan",
+      "company": "Ici RDI",
+      "slogan": "Whatever happens"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.16,
+      "category": "television-channels-slogan",
+      "company": "d2h",
+      "slogan": "Direct 2 Home."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.05,
+      "category": "television-channels-slogan",
+      "company": "DTour",
+      "slogan": "See Where it Takes You"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.8,
+      "category": "television-channels-slogan",
+      "company": "Cinemax",
+      "slogan": "We Are Your Nickelodeon"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "television-channels-slogan",
+      "company": "Alpha TV Cyprus",
+      "slogan": "Together in Alpha Cyprus"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.46,
+      "category": "television-channels-slogan",
+      "company": "Warner TV",
+      "slogan": "Get into it"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.26,
+      "category": "television-channels-slogan",
+      "company": "BBC World News",
+      "slogan": "Live the story"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "television-channels-slogan",
+      "company": "CP24",
+      "slogan": "Toronto's breaking news"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "television-channels-slogan",
+      "company": "Canal 10 (Uruguay)",
+      "slogan": "The Uruguayan channel"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.03,
+      "category": "television-channels-slogan",
+      "company": "CBC Television",
+      "slogan": "Fall for CBC"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.76,
+      "category": "television-channels-slogan",
+      "company": "Trinidad and Tobago Television",
+      "slogan": "Live for Local"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.26,
+      "category": "television-channels-slogan",
+      "company": "ARY Digital",
+      "slogan": "Colors of Life"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.03,
+      "category": "television-channels-slogan",
+      "company": "CNews",
+      "slogan": "The news channel that explains the news"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.77,
+      "category": "television-channels-slogan",
+      "company": "Enlace",
+      "slogan": "Una imagen que viene de lo alto"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.5,
+      "category": "television-channels-slogan",
+      "company": "BBC World Service",
+      "slogan": "The World's Radio Station"
+    },
+    {
+      "sentiment": -0.103,
+      "efficacite": 5.4,
+      "category": "television-channels-slogan",
+      "company": "Pluto TV",
+      "slogan": "Stream Now. Pay Never."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.58,
+      "category": "television-channels-slogan",
+      "company": "M1 (TV channel)",
+      "slogan": "Akkor. Amikor."
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 6.41,
+      "category": "television-channels-slogan",
+      "company": "Aaj News",
+      "slogan": "Today's news, you trust"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.38,
+      "category": "television-channels-slogan",
+      "company": "TC Televisión",
+      "slogan": "#PonTC"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.83,
+      "category": "television-channels-slogan",
+      "company": "Hulu",
+      "slogan": "Come TV with us."
+    },
+    {
+      "sentiment": 0.599,
+      "efficacite": 5.5,
+      "category": "television-channels-slogan",
+      "company": "Seoul Broadcasting System",
+      "slogan": "Together, we make delight"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.55,
+      "category": "television-channels-slogan",
+      "company": "Canal A",
+      "slogan": "It's Television"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.75,
+      "category": "television-channels-slogan",
+      "company": "Twitch",
+      "slogan": "You're already one of us"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.28,
+      "category": "television-channels-slogan",
+      "company": "Channel 5",
+      "slogan": "On Show On Body"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "television-channels-slogan",
+      "company": "Turner Classic Movies",
+      "slogan": "Where Then Meets Now"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.77,
+      "category": "television-channels-slogan",
+      "company": "El Nueve",
+      "slogan": "Always in movement"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.28,
+      "category": "television-channels-slogan",
+      "company": "Tele Antillas",
+      "slogan": "TV como eres tú"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "television-channels-slogan",
+      "company": "WORO-DT",
+      "slogan": "The family channel"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.81,
+      "category": "television-channels-slogan",
+      "company": "Telemundo",
+      "slogan": "Your channel"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.6,
+      "category": "television-channels-slogan",
+      "company": "LBC",
+      "slogan": "Leading Britain's Conversation"
+    },
+    {
+      "sentiment": 0.421,
+      "efficacite": 4.45,
+      "category": "television-channels-slogan",
+      "company": "Zee TV",
+      "slogan": "Entertainment unlimited."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.53,
+      "category": "television-channels-slogan",
+      "company": "DW-TV",
+      "slogan": "Made for minds."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.26,
+      "category": "television-channels-slogan",
+      "company": "Super Channel",
+      "slogan": "See it here"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.16,
+      "category": "television-channels-slogan",
+      "company": "ABC Australia",
+      "slogan": "Yours"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.54,
+      "category": "television-channels-slogan",
+      "company": "ESPN",
+      "slogan": "Sports Forever"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "television-channels-slogan",
+      "company": "Kutonen (TV channel)",
+      "slogan": "The sixth choice"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.0,
+      "category": "television-channels-slogan",
+      "company": "Teledoce",
+      "slogan": "The channel of the emotion"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.77,
+      "category": "television-channels-slogan",
+      "company": "TV Alhijrah",
+      "slogan": "TV Kita Untuk Semua"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.88,
+      "category": "health-medicine",
+      "company": "Eli Lilly and Company",
+      "slogan": "Powered By Purpose."
+    },
+    {
+      "sentiment": 0.66,
+      "efficacite": 6.78,
+      "category": "health-medicine",
+      "company": "Crunch Fitness",
+      "slogan": "Making fitness fun."
+    },
+    {
+      "sentiment": -0.25,
+      "efficacite": 4.5,
+      "category": "health-medicine",
+      "company": "Band-Aid",
+      "slogan": "I am stuck on Band-Aid"
+    },
+    {
+      "sentiment": 0.649,
+      "efficacite": 6.1,
+      "category": "health-medicine",
+      "company": "British Heart Foundation",
+      "slogan": "Their hearts are in your hands."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.3,
+      "category": "health-medicine",
+      "company": "Jetts Fitness",
+      "slogan": "Workout on your terms."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "sports-games",
+      "company": "JD Sports",
+      "slogan": "King of trainers."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.08,
+      "category": "sports-games",
+      "company": "Adelaide Strikers",
+      "slogan": "Blue Crew."
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 3.9,
+      "category": "sports-games",
+      "company": "Caribbean Premier League",
+      "slogan": "Biggest Party In Sport."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.05,
+      "category": "sports-games",
+      "company": "Snauwaert",
+      "slogan": "Tennis instruments"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.29,
+      "category": "sports-games",
+      "company": "Melbourne Stars",
+      "slogan": "Team Green."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.5,
+      "category": "sports-games",
+      "company": "Tecnifibre",
+      "slogan": "We are young, we are next!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.35,
+      "category": "sports-games",
+      "company": "Keela",
+      "slogan": "Follow your instinct."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "sports-games",
+      "company": "International League T20",
+      "slogan": "A League Apart."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "sports-games",
+      "company": "Dick's Sporting Goods",
+      "slogan": "Clothing & Sporting Goods"
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 5.04,
+      "category": "sports-games",
+      "company": "Prince Sports",
+      "slogan": "In love with the game."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.98,
+      "category": "sports-games",
+      "company": "Bushnell",
+      "slogan": "This is life"
+    },
+    {
+      "sentiment": 0.026,
+      "efficacite": 4.08,
+      "category": "sports-games",
+      "company": "Mizuno",
+      "slogan": "Reach Beyond"
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 5.02,
+      "category": "sports-games",
+      "company": "Thorpe Park",
+      "slogan": "Twisted pleasure."
+    },
+    {
+      "sentiment": 0.586,
+      "efficacite": 6.1,
+      "category": "sports-games",
+      "company": "TaylorMade Golf",
+      "slogan": "Made to Win"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.55,
+      "category": "sports-games",
+      "company": "Butlin's",
+      "slogan": "Come to life, come to Butlins."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "sports-games",
+      "company": "Capcom",
+      "slogan": "From Osaka to the World"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.98,
+      "category": "sports-games",
+      "company": "Alton Towers",
+      "slogan": "Everyone must go."
+    },
+    {
+      "sentiment": 0.527,
+      "efficacite": 6.98,
+      "category": "sports-games",
+      "company": "Donnay",
+      "slogan": "We’re used to winning."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.85,
+      "category": "sports-games",
+      "company": "Sydney Sixers",
+      "slogan": "Smashem Sixers."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "sports-games",
+      "company": "The National Lottery",
+      "slogan": "Christmas millionaire maker."
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 3.75,
+      "category": "sports-games",
+      "company": "Saint Lucia Kings",
+      "slogan": "Be Inspired."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "sports-games",
+      "company": "Decathlon",
+      "slogan": "The biggest sports store ever"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.76,
+      "category": "sports-games",
+      "company": "Walt Disney World",
+      "slogan": "Feel the magic"
+    },
+    {
+      "sentiment": 0.459,
+      "efficacite": 4.28,
+      "category": "sports-games",
+      "company": "Lillywhites",
+      "slogan": "Dedicated to sport"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.28,
+      "category": "sports-games",
+      "company": "Center Parcs",
+      "slogan": "Get together again."
+    },
+    {
+      "sentiment": 0.493,
+      "efficacite": 6.96,
+      "category": "sports-games",
+      "company": "JJB Sports",
+      "slogan": "It’s easy, it’s quick, it’s just a click!"
+    },
+    {
+      "sentiment": 0.624,
+      "efficacite": 4.43,
+      "category": "sports-games",
+      "company": "Wilson",
+      "slogan": "More win."
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 6.0,
+      "category": "sports-games",
+      "company": "Brooks Sports",
+      "slogan": "Run happy."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.12,
+      "category": "sports-games",
+      "company": "HOKA ONE ONE",
+      "slogan": "Time to Fly"
+    },
+    {
+      "sentiment": 0.869,
+      "efficacite": 7.02,
+      "category": "sports-games",
+      "company": "Manchester United F.C.",
+      "slogan": "Glory glory Man United."
+    },
+    {
+      "sentiment": 0.586,
+      "efficacite": 6.13,
+      "category": "sports-games",
+      "company": "Yonex",
+      "slogan": "Built to win."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "sports-games",
+      "company": "Odlo",
+      "slogan": "The art of layering."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.75,
+      "category": "sports-games",
+      "company": "Chennaiyin FC",
+      "slogan": "All In For Chennaiyin"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.95,
+      "category": "sports-games",
+      "company": "Eurocamp",
+      "slogan": "Because life is for living."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.99,
+      "category": "sports-games",
+      "company": "Mumbai Indians",
+      "slogan": "One Family."
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.32,
+      "category": "sports-games",
+      "company": "Saucony",
+      "slogan": "Run for Good"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.46,
+      "category": "sports-games",
+      "company": "Heelys",
+      "slogan": "Why walk."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.58,
+      "category": "sports-games",
+      "company": "Salomon",
+      "slogan": "Tomorrow is Yours"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.04,
+      "category": "sports-games",
+      "company": "FC Goa",
+      "slogan": "Rise Again."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "sports-games",
+      "company": "lotto sports",
+      "slogan": "Italian sport design"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "sports-games",
+      "company": "Berghaus",
+      "slogan": "Lead. Don’t follow."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.77,
+      "category": "sports-games",
+      "company": "Barbados Royals",
+      "slogan": "Roya ls Family."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.75,
+      "category": "sports-games",
+      "company": "Disneyland Paris",
+      "slogan": "Come and live the magic"
+    },
+    {
+      "sentiment": 0.511,
+      "efficacite": 5.49,
+      "category": "sports-games",
+      "company": "Helly Hansen",
+      "slogan": "Confident when it matters."
+    },
+    {
+      "sentiment": 0.572,
+      "efficacite": 5.02,
+      "category": "sports-games",
+      "company": "Wink Bingo",
+      "slogan": "Celebrate with 1p bingo games"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.05,
+      "category": "sports-games",
+      "company": "FIFA",
+      "slogan": "Beyond Greatness"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.0,
+      "category": "sports-games",
+      "company": "Outward Bound",
+      "slogan": "Live bigger."
+    },
+    {
+      "sentiment": 0.493,
+      "efficacite": 5.58,
+      "category": "sports-games",
+      "company": "Gosen",
+      "slogan": "Good! Gosen"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "sports-games",
+      "company": "Hobart Hurricanes",
+      "slogan": "The Purple Army."
+    },
+    {
+      "sentiment": 0.477,
+      "efficacite": 3.75,
+      "category": "sports-games",
+      "company": "Intersport",
+      "slogan": "Shops for winners"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.55,
+      "category": "education",
+      "company": "Kennesaw State University",
+      "slogan": "We'll take you higher."
+    },
+    {
+      "sentiment": 0.34,
+      "efficacite": 3.87,
+      "category": "education",
+      "company": "Hofstra University",
+      "slogan": "Pride and purpose."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.0,
+      "category": "education",
+      "company": "InterExec",
+      "slogan": "The one who stands out."
+    },
+    {
+      "sentiment": 0.735,
+      "efficacite": 6.89,
+      "category": "education",
+      "company": "Texas Lutheran University",
+      "slogan": "Learn boldly. Live to inspire."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.35,
+      "category": "education",
+      "company": "Open University",
+      "slogan": "Transform your life."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.0,
+      "category": "education",
+      "company": "INSEAD",
+      "slogan": "The Business School for the World"
+    },
+    {
+      "sentiment": -0.296,
+      "efficacite": 4.05,
+      "category": "education",
+      "company": "Department For Education and Skills",
+      "slogan": "Don’t stop, Aimhigher."
+    },
+    {
+      "sentiment": 0.273,
+      "efficacite": 5.7,
+      "category": "education",
+      "company": "University of Central Lancashire",
+      "slogan": "It’s your future. Spend it well."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.47,
+      "category": "education",
+      "company": "University of Richmond",
+      "slogan": "Word of life and the light of knowledge"
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 5.25,
+      "category": "education",
+      "company": "Linguaphone",
+      "slogan": "Language made easy."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.4,
+      "category": "education",
+      "company": "Capella University",
+      "slogan": "Rise above the everyday MBA"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.03,
+      "category": "education",
+      "company": "Ball State University",
+      "slogan": "Education redefined."
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 7.21,
+      "category": "education",
+      "company": "Carlisle College",
+      "slogan": "Love your summer."
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 4.54,
+      "category": "education",
+      "company": "Stanford University",
+      "slogan": "The wind of freedom blows"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "campaign",
+      "company": "National Dairy Council",
+      "slogan": "The lighter tasting milk."
+    },
+    {
+      "sentiment": 0.649,
+      "efficacite": 5.82,
+      "category": "campaign",
+      "company": "The Children's Society",
+      "slogan": "Gift of giving."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.62,
+      "category": "campaign",
+      "company": "Rotary International",
+      "slogan": "Service Above Self."
+    },
+    {
+      "sentiment": -0.296,
+      "efficacite": 4.62,
+      "category": "campaign",
+      "company": "World Vision",
+      "slogan": "Stop at nothing."
+    },
+    {
+      "sentiment": 0.382,
+      "efficacite": 3.43,
+      "category": "campaign",
+      "company": "Liberal Democrats",
+      "slogan": "Stronger together."
+    },
+    {
+      "sentiment": 0.477,
+      "efficacite": 4.95,
+      "category": "campaign",
+      "company": "Home Office",
+      "slogan": "Wise up to the net."
+    },
+    {
+      "sentiment": 0.494,
+      "efficacite": 4.54,
+      "category": "campaign",
+      "company": "American Red Cross",
+      "slogan": "Together, we can save a life"
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 3.35,
+      "category": "campaign",
+      "company": "Conservative Party",
+      "slogan": "Excellence for all."
+    },
+    {
+      "sentiment": 0.637,
+      "efficacite": 6.54,
+      "category": "campaign",
+      "company": "1Malaysia",
+      "slogan": "One Heart, One Soul."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.25,
+      "category": "campaign",
+      "company": "Labour Party",
+      "slogan": "New ideas, new thinking, new labour."
+    },
+    {
+      "sentiment": 0.296,
+      "efficacite": 5.37,
+      "category": "campaign",
+      "company": "UK Tea Council",
+      "slogan": "Join the tea set."
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 4.55,
+      "category": "uncategorized",
+      "company": "WIN Television",
+      "slogan": "Great TV Lives Here"
+    },
+    {
+      "sentiment": -0.542,
+      "efficacite": 4.71,
+      "category": "uncategorized",
+      "company": "Shelter",
+      "slogan": "Bad housing wrecks lives."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.78,
+      "category": "uncategorized",
+      "company": "Signing Time!",
+      "slogan": "You’ve heard about it, now try it!"
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 4.55,
+      "category": "uncategorized",
+      "company": "Network 10",
+      "slogan": "Great TV Lives Here"
+    },
+    {
+      "sentiment": 0.527,
+      "efficacite": 6.88,
+      "category": "uncategorized",
+      "company": "World Wide Fund for Nature",
+      "slogan": "We share the land. We share the future."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.26,
+      "category": "uncategorized",
+      "company": "TVA (Canadian TV network)",
+      "slogan": "It's Real"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.15,
+      "category": "uncategorized",
+      "company": "Trivial Pursuit",
+      "slogan": "Britain. This game is for you."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.27,
+      "category": "uncategorized",
+      "company": "Marmot Ski Apparel",
+      "slogan": "Marmot for Life"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.77,
+      "category": "uncategorized",
+      "company": "Barnardo's",
+      "slogan": "Belive in children."
+    },
+    {
+      "sentiment": 0.691,
+      "efficacite": 5.74,
+      "category": "uncategorized",
+      "company": "World Breastfeeding Week",
+      "slogan": "Breastfeeding gives the best feeling."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.73,
+      "category": "uncategorized",
+      "company": "Fun Radio",
+      "slogan": "Soul & Dance"
+    },
+    {
+      "sentiment": 0.382,
+      "efficacite": 4.54,
+      "category": "uncategorized",
+      "company": "9HD",
+      "slogan": "Crystal Clear"
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 4.62,
+      "category": "uncategorized",
+      "company": "Zebco Fishing Reels",
+      "slogan": "​Now 50 years old and better than ever."
+    },
+    {
+      "sentiment": 0.813,
+      "efficacite": 4.34,
+      "category": "uncategorized",
+      "company": "7mate",
+      "slogan": "Man's Best Friend"
+    },
+    {
+      "sentiment": 0.402,
+      "efficacite": 3.9,
+      "category": "uncategorized",
+      "company": "National Rifle Association",
+      "slogan": "Freedom's safest place"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 6.5,
+      "category": "uncategorized",
+      "company": "ResearchChannel",
+      "slogan": "Think Forward. Think ResearchChannel."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "uncategorized",
+      "company": "Nagpur",
+      "slogan": "Tiger capital of india"
+    },
+    {
+      "sentiment": 0.7,
+      "efficacite": 8.02,
+      "category": "uncategorized",
+      "company": "Nikwax Waterproofing",
+      "slogan": "Easy to apply. Safe to use."
+    },
+    {
+      "sentiment": 0.625,
+      "efficacite": 5.82,
+      "category": "uncategorized",
+      "company": "Canyon Ranch",
+      "slogan": "Accumulate great health"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.43,
+      "category": "uncategorized",
+      "company": "ABC Comedy",
+      "slogan": "Get it!"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.83,
+      "category": "uncategorized",
+      "company": "Meccano",
+      "slogan": "Toys of quality."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "uncategorized",
+      "company": "Quick-Step Floors",
+      "slogan": "Floors that stand up"
+    },
+    {
+      "sentiment": 0.382,
+      "efficacite": 4.43,
+      "category": "uncategorized",
+      "company": "RSPCA",
+      "slogan": "Because we keep our promises."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.77,
+      "category": "uncategorized",
+      "company": "Trio (TV network)",
+      "slogan": "pop, culture, TV"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.56,
+      "category": "uncategorized",
+      "company": "Nine Network",
+      "slogan": "We Are The One"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.5,
+      "category": "uncategorized",
+      "company": "Zardoz Notwax",
+      "slogan": "100% Pure Liquid Teflon"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.5,
+      "category": "uncategorized",
+      "company": "Northwest Cable News",
+      "slogan": "Always There. Always On."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.58,
+      "category": "uncategorized",
+      "company": "Discovery Channel",
+      "slogan": "The world is ours"
+    },
+    {
+      "sentiment": 0.527,
+      "efficacite": 3.93,
+      "category": "uncategorized",
+      "company": "Virginia",
+      "slogan": "Virginia is for Lovers"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.0,
+      "category": "uncategorized",
+      "company": "SBS (Australian TV channel)",
+      "slogan": "A World of Difference"
+    },
+    {
+      "sentiment": 0.891,
+      "efficacite": 6.7,
+      "category": "uncategorized",
+      "company": "Sauder",
+      "slogan": "Great furniture at a great value"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 2.98,
+      "category": "uncategorized",
+      "company": "Bangalore",
+      "slogan": "Space City"
+    },
+    {
+      "sentiment": -0.421,
+      "efficacite": 6.27,
+      "category": "uncategorized",
+      "company": "NSPCC",
+      "slogan": "Talk ’til it stops. Full stop."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.95,
+      "category": "uncategorized",
+      "company": "Today FM",
+      "slogan": "Oh It's On"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.83,
+      "category": "uncategorized",
+      "company": "NRJ",
+      "slogan": "Hit Music Only !"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 3.6,
+      "category": "uncategorized",
+      "company": "Vioxx",
+      "slogan": "For everyday victories"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.0,
+      "category": "uncategorized",
+      "company": "Zinsser",
+      "slogan": "Before you paint prime with Zinsser"
+    },
+    {
+      "sentiment": 0.421,
+      "efficacite": 4.45,
+      "category": "uncategorized",
+      "company": "E! (Canadian TV system)",
+      "slogan": "Everything Entertainment"
+    },
+    {
+      "sentiment": 0.493,
+      "efficacite": 5.17,
+      "category": "uncategorized",
+      "company": "TheCoolTV",
+      "slogan": "Supporting Indie Music Artist Worldwide!"
+    },
+    {
+      "sentiment": 0.557,
+      "efficacite": 4.46,
+      "category": "uncategorized",
+      "company": "World Blood Donor Day",
+      "slogan": "Every blood donor is a hero"
+    },
+    {
+      "sentiment": 0.557,
+      "efficacite": 5.28,
+      "category": "uncategorized",
+      "company": "TV Land",
+      "slogan": "Laugh More"
+    },
+    {
+      "sentiment": 0.691,
+      "efficacite": 5.64,
+      "category": "uncategorized",
+      "company": "American Cancer Society",
+      "slogan": "Hope. Progress. Answers."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 5.0,
+      "category": "uncategorized",
+      "company": "Chicago",
+      "slogan": "Chicago not in Chicago"
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.94,
+      "category": "uncategorized",
+      "company": "Seven Network",
+      "slogan": "Only on 7"
+    },
+    {
+      "sentiment": 0.34,
+      "efficacite": 6.44,
+      "category": "uncategorized",
+      "company": "Scrabble",
+      "slogan": "Play with your words."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.25,
+      "category": "uncategorized",
+      "company": "Hydrosil",
+      "slogan": "Replace Old & Inefficient Heat"
+    },
+    {
+      "sentiment": 0.44,
+      "efficacite": 6.34,
+      "category": "uncategorized",
+      "company": "Oxfam",
+      "slogan": "Lift lives for good."
+    },
+    {
+      "sentiment": 0.0,
+      "efficacite": 4.12,
+      "category": "uncategorized",
+      "company": "7two",
+      "slogan": "Can Do"
+    },
+    {
+      "sentiment": 0.751,
+      "efficacite": 8.25,
+      "category": "uncategorized",
+      "company": "Peaches Uniforms",
+      "slogan": "Designed for fit. Loved for style."
+    },
+    {
+      "sentiment": 0.493,
+      "efficacite": 4.57,
+      "category": "uncategorized",
+      "company": "The DR Power Wagon",
+      "slogan": "The Easy Way!"
+    }
+  ],
+  "category_stats": [
+    {
+      "category": "cosmetics",
+      "mean": 5.09,
+      "count": 99,
+      "min": 2.77,
+      "max": 8.76,
+      "q1": 4.28,
+      "median": 4.97,
+      "q3": 5.88
+    },
+    {
+      "category": "household",
+      "mean": 5.09,
+      "count": 95,
+      "min": 2.65,
+      "max": 8.78,
+      "q1": 4.27,
+      "median": 4.95,
+      "q3": 5.63
+    },
+    {
+      "category": "food",
+      "mean": 4.95,
+      "count": 346,
+      "min": 2.77,
+      "max": 8.76,
+      "q1": 4.24,
+      "median": 4.88,
+      "q3": 5.68
+    },
+    {
+      "category": "restaurant",
+      "mean": 4.95,
+      "count": 171,
+      "min": 2.48,
+      "max": 7.76,
+      "q1": 4.32,
+      "median": 4.84,
+      "q3": 5.58
+    },
+    {
+      "category": "airlines",
+      "mean": 4.78,
+      "count": 139,
+      "min": 3.0,
+      "max": 7.54,
+      "q1": 4.06,
+      "median": 4.78,
+      "q3": 5.38
+    },
+    {
+      "category": "business",
+      "mean": 4.77,
+      "count": 264,
+      "min": 2.49,
+      "max": 7.69,
+      "q1": 4.03,
+      "median": 4.72,
+      "q3": 5.45
+    },
+    {
+      "category": "uncategorized",
+      "mean": 4.73,
+      "count": 81,
+      "min": 2.73,
+      "max": 8.25,
+      "q1": 3.9,
+      "median": 4.55,
+      "q3": 5.5
+    },
+    {
+      "category": "apparel",
+      "mean": 4.66,
+      "count": 164,
+      "min": 2.7,
+      "max": 8.21,
+      "q1": 3.73,
+      "median": 4.65,
+      "q3": 5.36
+    },
+    {
+      "category": "technology",
+      "mean": 4.65,
+      "count": 144,
+      "min": 2.77,
+      "max": 8.64,
+      "q1": 3.82,
+      "median": 4.58,
+      "q3": 5.38
+    },
+    {
+      "category": "drinking",
+      "mean": 4.63,
+      "count": 579,
+      "min": 2.47,
+      "max": 8.32,
+      "q1": 3.88,
+      "median": 4.55,
+      "q3": 5.28
+    },
+    {
+      "category": "company",
+      "mean": 4.6,
+      "count": 614,
+      "min": 2.35,
+      "max": 8.47,
+      "q1": 3.83,
+      "median": 4.5,
+      "q3": 5.32
+    },
+    {
+      "category": "financial",
+      "mean": 4.6,
+      "count": 162,
+      "min": 2.28,
+      "max": 7.02,
+      "q1": 3.86,
+      "median": 4.37,
+      "q3": 5.3
+    },
+    {
+      "category": "tours",
+      "mean": 4.59,
+      "count": 195,
+      "min": 2.1,
+      "max": 7.5,
+      "q1": 3.8,
+      "median": 4.53,
+      "q3": 5.5
+    },
+    {
+      "category": "sports-games",
+      "mean": 4.53,
+      "count": 52,
+      "min": 2.77,
+      "max": 7.02,
+      "q1": 3.75,
+      "median": 4.26,
+      "q3": 5.33
+    },
+    {
+      "category": "car-slogan",
+      "mean": 4.44,
+      "count": 152,
+      "min": 2.52,
+      "max": 7.83,
+      "q1": 3.79,
+      "median": 4.33,
+      "q3": 4.96
+    },
+    {
+      "category": "television-channels-slogan",
+      "mean": 4.18,
+      "count": 51,
+      "min": 2.38,
+      "max": 6.41,
+      "q1": 3.27,
+      "median": 3.94,
+      "q3": 5.15
+    }
+  ],
+  "cliche_data": [
+    {
+      "word": "best",
+      "count": 46,
+      "percentage": 1.4
+    },
+    {
+      "word": "perfect",
+      "count": 26,
+      "percentage": 0.8
+    },
+    {
+      "word": "quality",
+      "count": 24,
+      "percentage": 0.7
+    },
+    {
+      "word": "value",
+      "count": 19,
+      "percentage": 0.6
+    },
+    {
+      "word": "excellence",
+      "count": 11,
+      "percentage": 0.3
+    },
+    {
+      "word": "experience",
+      "count": 10,
+      "percentage": 0.3
+    },
+    {
+      "word": "expert",
+      "count": 7,
+      "percentage": 0.2
+    },
+    {
+      "word": "solution",
+      "count": 7,
+      "percentage": 0.2
+    },
+    {
+      "word": "trusted",
+      "count": 6,
+      "percentage": 0.2
+    },
+    {
+      "word": "finest",
+      "count": 5,
+      "percentage": 0.1
+    }
+  ],
+  "radar_profiles": [
+    {
+      "name": "Dettol - \"We Protect What We Love\"",
+      "score": 8.8,
+      "longueur": 10.0,
+      "memorabilite": 10.0,
+      "emotion": 8.9,
+      "action": 8.0,
+      "originalite": 10.0,
+      "engagement": 3.0
+    },
+    {
+      "name": "Coca-Cola - \"Taste The Feeling.\"",
+      "score": 5.2,
+      "longueur": 8.5,
+      "memorabilite": 5.0,
+      "emotion": 0.6,
+      "action": 7.0,
+      "originalite": 10.0,
+      "engagement": 0.0
+    },
+    {
+      "name": "Connecticut - \"Still Revolutionary\"",
+      "score": 2.1,
+      "longueur": 7.0,
+      "memorabilite": 0.0,
+      "emotion": 0.0,
+      "action": 0.0,
+      "originalite": 7.0,
+      "engagement": 0.0
+    }
+  ],
+  "global_stats": {
+    "total_slogans": 3338,
+    "mean_score": 4.71,
+    "excellent_count": 12,
+    "good_count": 1033,
+    "categories_count": 19
+  }
+}

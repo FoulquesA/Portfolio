@@ -1,0 +1,308 @@
+{
+  "tools_data": [
+    {
+      "tool": "Excel",
+      "percentage": 31.9
+    },
+    {
+      "tool": "SQL",
+      "percentage": 28.6
+    },
+    {
+      "tool": "Power BI",
+      "percentage": 21.2
+    },
+    {
+      "tool": "Python",
+      "percentage": 13.3
+    },
+    {
+      "tool": "Qlik",
+      "percentage": 6.0
+    },
+    {
+      "tool": "Talend",
+      "percentage": 4.1
+    },
+    {
+      "tool": "Git",
+      "percentage": 3.3
+    },
+    {
+      "tool": "Looker",
+      "percentage": 2.8
+    },
+    {
+      "tool": "Databricks",
+      "percentage": 2.4
+    },
+    {
+      "tool": "VBA",
+      "percentage": 2.2
+    }
+  ],
+  "salary_by_level": [
+    {
+      "level": "Junior (0-1 an)",
+      "salary": 34,
+      "count": 13
+    },
+    {
+      "level": "Confirmé (2-3 ans)",
+      "salary": 39,
+      "count": 6
+    },
+    {
+      "level": "Senior (4+ ans)",
+      "salary": 49,
+      "count": 16
+    }
+  ],
+  "tools_by_experience": [
+    {
+      "tool": "Excel",
+      "junior": 33,
+      "senior": 40
+    },
+    {
+      "tool": "SQL",
+      "junior": 27,
+      "senior": 37
+    },
+    {
+      "tool": "Power BI",
+      "junior": 23,
+      "senior": 14
+    },
+    {
+      "tool": "Python",
+      "junior": 15,
+      "senior": 7
+    },
+    {
+      "tool": "Qlik",
+      "junior": 7,
+      "senior": 5
+    },
+    {
+      "tool": "Talend",
+      "junior": 4,
+      "senior": 3
+    },
+    {
+      "tool": "VBA",
+      "junior": 3,
+      "senior": 3
+    },
+    {
+      "tool": "Looker",
+      "junior": 3.5,
+      "senior": 2
+    },
+    {
+      "tool": "Databricks",
+      "junior": 1,
+      "senior": 3
+    }
+  ],
+  "soft_skills": [
+    {
+      "skill": "Rigueur et précision",
+      "percentage": 78,
+      "count": 39
+    },
+    {
+      "skill": "Autonomie",
+      "percentage": 72,
+      "count": 36
+    },
+    {
+      "skill": "Organisation",
+      "percentage": 48,
+      "count": 24
+    },
+    {
+      "skill": "Force de proposition",
+      "percentage": 26,
+      "count": 13
+    },
+    {
+      "skill": "Esprit d'équipe",
+      "percentage": 22,
+      "count": 11
+    },
+    {
+      "skill": "Créativité/inventivité",
+      "percentage": 10,
+      "count": 5
+    }
+  ],
+  "required_vs_desired": [
+    {
+      "tool": "Salesforce",
+      "required": 1.4,
+      "desired": 0
+    },
+    {
+      "tool": "SQL",
+      "required": 0,
+      "desired": 2.9
+    },
+    {
+      "tool": "Excel",
+      "required": 3.0,
+      "desired": 4.3
+    },
+    {
+      "tool": "Python",
+      "required": 3.0,
+      "desired": 4.3
+    },
+    {
+      "tool": "Power BI",
+      "required": 3.0,
+      "desired": 4.3
+    }
+  ],
+  "global_stats": {
+    "total_offers": 580,
+    "median_salary": 40,
+    "cdi_percentage": 68,
+    "junior_percentage": 45,
+    "paris_offers": 73,
+    "top_sector": "Conseil en systèmes et logiciels informatiques"
+  },
+  "contract_types": [
+    {
+      "type": "CDI",
+      "count": 392,
+      "percentage": 68
+    },
+    {
+      "type": "CDD",
+      "count": 116,
+      "percentage": 20
+    },
+    {
+      "type": "Intérim",
+      "count": 68,
+      "percentage": 12
+    },
+    {
+      "type": "Freelance",
+      "count": 3,
+      "percentage": 1
+    },
+    {
+      "type": "Autre",
+      "count": 1,
+      "percentage": 0
+    }
+  ],
+  "experience_required": [
+    {
+      "level": "Junior (0-1 an)",
+      "count": 260,
+      "percentage": 45
+    },
+    {
+      "level": "Confirmé (2-3 ans)",
+      "count": 151,
+      "percentage": 26
+    },
+    {
+      "level": "Senior (4+ ans)",
+      "count": 93,
+      "percentage": 16
+    },
+    {
+      "level": "Non spécifié",
+      "count": 76,
+      "percentage": 13
+    }
+  ],
+  "top_departments": [
+    {
+      "department": "75 - Paris",
+      "count": 73
+    },
+    {
+      "department": "69 - Lyon",
+      "count": 28
+    },
+    {
+      "department": "44 - Nantes",
+      "count": 22
+    },
+    {
+      "department": "67 - Strasbourg",
+      "count": 14
+    },
+    {
+      "department": "31 - Toulouse",
+      "count": 14
+    },
+    {
+      "department": "45 - Orléans",
+      "count": 13
+    },
+    {
+      "department": "33 - Bordeaux",
+      "count": 11
+    },
+    {
+      "department": "37 - Tours",
+      "count": 11
+    },
+    {
+      "department": "31 - Blagnac",
+      "count": 10
+    },
+    {
+      "department": "91 - Massy",
+      "count": 9
+    }
+  ],
+  "top_sectors": [
+    {
+      "sector": "Conseil en systèmes et logiciels informatiques",
+      "count": 28
+    },
+    {
+      "sector": "Conseil pour les affaires et autres conseils de gestion",
+      "count": 16
+    },
+    {
+      "sector": "Administration publique (tutelle) des activités économiques",
+      "count": 15
+    },
+    {
+      "sector": "Traitement de données, hébergement et activités connexes",
+      "count": 9
+    },
+    {
+      "sector": "Commerce d'alimentation générale",
+      "count": 7
+    },
+    {
+      "sector": "Autres assurances",
+      "count": 5
+    },
+    {
+      "sector": "Tierce maintenance de systèmes et d'applications informatiques",
+      "count": 5
+    },
+    {
+      "sector": "Assurance vie",
+      "count": 4
+    },
+    {
+      "sector": "Fabrication de produits pharmaceutiques de base",
+      "count": 4
+    },
+    {
+      "sector": "Activités des sociétés holding",
+      "count": 4
+    }
+  ]
+}

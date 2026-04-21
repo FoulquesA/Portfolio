@@ -1,0 +1,153 @@
+{
+  "pvalues": [
+    {
+      "name": "Tempo (BPM)",
+      "value": 0.9974,
+      "significant": 0
+    },
+    {
+      "name": "\u00c9nergie RMS",
+      "value": 0.0045,
+      "significant": 1
+    },
+    {
+      "name": "Centro\u00efde spectral",
+      "value": 0.0565,
+      "significant": 0
+    },
+    {
+      "name": "Rolloff spectral",
+      "value": 0.1459,
+      "significant": 0
+    },
+    {
+      "name": "Zero Crossing Rate",
+      "value": 0.0151,
+      "significant": 1
+    },
+    {
+      "name": "Chroma (Harmonie)",
+      "value": 0.0022,
+      "significant": 1
+    },
+    {
+      "name": "MFCC 1 (Timbre)",
+      "value": 0.9956,
+      "significant": 0
+    },
+    {
+      "name": "MFCC 2",
+      "value": 0.8819,
+      "significant": 0
+    },
+    {
+      "name": "MFCC 3",
+      "value": 0.8879,
+      "significant": 0
+    },
+    {
+      "name": "MFCC 4",
+      "value": 0.2387,
+      "significant": 0
+    },
+    {
+      "name": "MFCC 5",
+      "value": 0.1459,
+      "significant": 0
+    }
+  ],
+  "variance": [
+    {
+      "feature": "Tempo",
+      "editoriale": 740.7953,
+      "humaine": 547.258
+    },
+    {
+      "feature": "\u00c9nergie",
+      "editoriale": 0.0031,
+      "humaine": 0.0037
+    },
+    {
+      "feature": "Centro\u00efde",
+      "editoriale": 177418.8972,
+      "humaine": 196601.6242
+    },
+    {
+      "feature": "Rolloff",
+      "editoriale": 980743.3912,
+      "humaine": 1054073.0166
+    },
+    {
+      "feature": "Zero",
+      "editoriale": 0.0006,
+      "humaine": 0.0007
+    },
+    {
+      "feature": "Chroma",
+      "editoriale": 0.0027,
+      "humaine": 0.0033
+    },
+    {
+      "feature": "MFCC",
+      "editoriale": 3115.6407,
+      "humaine": 2541.5581
+    },
+    {
+      "feature": "MFCC",
+      "editoriale": 463.554,
+      "humaine": 426.2683
+    },
+    {
+      "feature": "MFCC",
+      "editoriale": 297.2321,
+      "humaine": 220.8525
+    },
+    {
+      "feature": "MFCC",
+      "editoriale": 106.3738,
+      "humaine": 98.5166
+    },
+    {
+      "feature": "MFCC",
+      "editoriale": 57.4165,
+      "humaine": 59.0865
+    }
+  ],
+  "radar": [
+    {
+      "axis": "Tempo",
+      "editoriale": 0.361,
+      "humaine": 0.251
+    },
+    {
+      "axis": "\u00c9nergie",
+      "editoriale": 0.423,
+      "humaine": 0.516
+    },
+    {
+      "axis": "Rolloff",
+      "editoriale": 0.403,
+      "humaine": 0.434
+    },
+    {
+      "axis": "Texture",
+      "editoriale": 0.363,
+      "humaine": 0.452
+    },
+    {
+      "axis": "Harmonie",
+      "editoriale": 0.287,
+      "humaine": 0.375
+    },
+    {
+      "axis": "Timbre",
+      "editoriale": 0.292,
+      "humaine": 0.219
+    },
+    {
+      "axis": "MFCC 3",
+      "editoriale": 0.223,
+      "humaine": 0.155
+    }
+  ]
+}
