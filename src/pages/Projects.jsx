@@ -3,6 +3,7 @@ import ScrollReveal from '../components/ScrollReveal'
 import DeezerCharts from '../components/DeezerCharts'
 import SloganCharts from '../components/SloganCharts'
 import FranceTravailCharts from '../components/FranceTravailCharts'
+import OlistCharts from '../components/OlistCharts'
 
 const UseCaseBlock = ({ text }) => (
   <div className="p-8 bg-gradient-to-br from-neutral-900 to-neutral-800 rounded-xl shadow-xl">
@@ -203,15 +204,10 @@ const Projects = () => {
                         <p className="text-white/95 leading-relaxed">{project.details.revelation}</p>
                       </div>
                       <UseCaseBlock text={project.details.useCase} />
-                      <div className="grid md:grid-cols-2 gap-4">
-                        {project.details.images.map((img, i) => (
-                          <img
-                            key={i}
-                            src={`${import.meta.env.BASE_URL}${img.replace(/^\//, '')}`}
-                            alt={`Olist — figure ${i + 1}`}
-                            className={`w-full rounded-xl shadow-lg bg-white ${i === 2 ? 'md:col-span-2' : 'h-80 object-contain'}`}
-                          />
-                        ))}
+
+                      {/* Graphes interactifs */}
+                      <div className="mt-8">
+                        <OlistCharts />
                       </div>
                     </div>
                   )}
