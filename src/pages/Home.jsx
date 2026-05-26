@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import ScrollReveal from '../components/ScrollReveal'
+import SpotlightCard from '../components/SpotlightCard'
+import AnimatedNumber from '../components/AnimatedNumber'
 
 const Home = () => {
   return (
@@ -55,7 +57,7 @@ const Home = () => {
             <div className="max-w-3xl">
               <div className="p-6 bg-white/80 backdrop-blur-sm border-l-4 border-primary-600 rounded-xl shadow-lg">
                 <p className="text-xl text-neutral-700 leading-relaxed">
-                  Master Marketing Insight & Data Analytics Strategy (PSB Paris). 2 ans chez Caramel&Cie comme Marketing Data Analyst — une refonte data-driven de la stratégie a généré <span className="font-bold text-accent-700">+30 % de CA vs N-1</span>. Puis 1 an en freelance pour clients SaaS sur l'infrastructure analytics et le tracking comportemental. Je rejoins aujourd'hui une équipe en CDI.
+                  Master Marketing Insight & Data Analytics Strategy (PSB Paris). 2 ans chez Caramel&Cie comme Marketing Data Analyst — une refonte data-driven de la stratégie a généré <span className="font-bold text-accent-700"><AnimatedNumber value={30} prefix="+" suffix=" %" /> de CA vs N-1</span>. Puis 1 an en freelance pour clients SaaS sur l'infrastructure analytics et le tracking comportemental. Je rejoins aujourd'hui une équipe en CDI.
                 </p>
                 <p className="text-base text-neutral-600 mt-3">
                   Ouvert à : <span className="font-semibold text-primary-700">Marketing Data Analyst</span>, <span className="font-semibold text-primary-700">Product Analyst</span>, <span className="font-semibold text-primary-700">Consultant Web Analytics</span>.
@@ -123,24 +125,26 @@ const Home = () => {
               stack: ['Python', 'NLP', 'Clustering']
             }
           ].map((p, i) => (
-            <ScrollReveal key={i} type="card" stagger={i * 0.1}>
+            <ScrollReveal key={i} type="card" stagger={i * 0.08}>
               <Link to="/projects" className="block h-full group">
-                <div className="relative h-full p-8 bg-white border-2 border-neutral-200 rounded-2xl shadow-lg hover:shadow-2xl hover:border-primary-300 transition-all">
-                  <p className="text-xs font-bold tracking-wider text-accent-700 mb-3">{p.tag}</p>
-                  <h3 className="text-xl font-bold text-neutral-900 mb-3 group-hover:text-primary-700 transition-colors">{p.title}</h3>
-                  <p className="text-neutral-600 leading-relaxed mb-5">{p.hook}</p>
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    {p.stack.map((s, j) => (
-                      <span key={j} className="px-2.5 py-1 bg-neutral-100 text-neutral-700 rounded text-xs font-semibold">{s}</span>
-                    ))}
+                <SpotlightCard className="relative h-full bg-white border border-neutral-200 rounded-2xl shadow-sm group-hover:shadow-xl group-hover:border-primary-300 transition-all duration-300">
+                  <div className="relative h-full p-8">
+                    <p className="text-xs font-bold tracking-wider text-accent-700 mb-3">{p.tag}</p>
+                    <h3 className="text-xl font-bold text-neutral-900 mb-3 group-hover:text-primary-700 transition-colors">{p.title}</h3>
+                    <p className="text-neutral-600 leading-relaxed mb-5">{p.hook}</p>
+                    <div className="flex flex-wrap gap-2 mb-6">
+                      {p.stack.map((s, j) => (
+                        <span key={j} className="px-2.5 py-1 bg-neutral-100 text-neutral-700 rounded text-xs font-semibold">{s}</span>
+                      ))}
+                    </div>
+                    <span className="inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
+                      Voir l'étude
+                      <svg className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      </svg>
+                    </span>
                   </div>
-                  <span className="inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
-                    Voir l'étude
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                  </span>
-                </div>
+                </SpotlightCard>
               </Link>
             </ScrollReveal>
           ))}

@@ -1,5 +1,13 @@
 import { LineChart, Line, BarChart, Bar, RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ScatterChart, Scatter, Cell } from 'recharts'
 import { useState } from 'react'
+import { AnimatePresence, motion } from 'framer-motion'
+
+const chartAnim = {
+  initial: { opacity: 0, y: 8 },
+  animate: { opacity: 1, y: 0 },
+  exit: { opacity: 0, y: -8 },
+  transition: { duration: 0.25, ease: [0.16, 1, 0.3, 1] },
+}
 
 const DeezerCharts = () => {
   const [activeChart, setActiveChart] = useState('pvalues')
@@ -101,9 +109,10 @@ const DeezerCharts = () => {
         </button>
       </div>
 
+      <AnimatePresence mode="wait">
       {/* Graphe P-values */}
       {activeChart === 'pvalues' && (
-        <div className="p-6 bg-white rounded-2xl border-2 border-primary-200">
+        <motion.div key="pvalues" {...chartAnim} className="p-6 bg-white rounded-2xl border-2 border-primary-200">
           <h4 className="text-xl font-bold text-primary-700 mb-6">
             Significativité statistique par feature acoustique
           </h4>
@@ -126,12 +135,12 @@ const DeezerCharts = () => {
           <p className="text-sm text-neutral-600 mt-4">
             Rose = significatif (p &lt; 0.05). Gris = non significatif. Plus la barre est longue, moins la différence est significative.
           </p>
-        </div>
+        </motion.div>
       )}
 
       {/* Graphe variance comparative */}
       {activeChart === 'variance' && (
-        <div className="p-6 bg-white rounded-2xl border-2 border-primary-200 space-y-8">
+        <motion.div key="variance" {...chartAnim} className="p-6 bg-white rounded-2xl border-2 border-primary-200 space-y-8">
           <div>
             <h4 className="text-xl font-bold text-primary-700 mb-2">
               Variance acoustique intra-playlist : Éditoriales vs Humaines
@@ -193,12 +202,12 @@ const DeezerCharts = () => {
           <p className="text-sm text-neutral-600 italic mt-4">
             Observation clé : les playlists éditoriales sont systématiquement plus homogènes sur les 3 dimensions significatives (Énergie, Texture/Zero Crossing, Harmonie/Chroma).
           </p>
-        </div>
+        </motion.div>
       )}
 
       {/* Radar chart profil acoustique */}
       {activeChart === 'radar' && (
-        <div className="p-6 bg-white rounded-2xl border-2 border-primary-200">
+        <motion.div key="radar" {...chartAnim} className="p-6 bg-white rounded-2xl border-2 border-primary-200">
           <h4 className="text-xl font-bold text-primary-700 mb-6">
             Profil de variance acoustique moyen
           </h4>
@@ -233,8 +242,9 @@ const DeezerCharts = () => {
           <p className="text-sm text-neutral-600 mt-4">
             Variance normalisée : plus c'est haut, plus c'est variable. Les playlists éditoriales (rose) sont plus basses sur Énergie, Texture et Harmonie (features significatives) confirmant leur homogénéité contrôlée. Elles tolèrent plus de variance sur le Tempo et le timbre (MFCC).
           </p>
-        </div>
+        </motion.div>
       )}
+      </AnimatePresence>
 
     </div>
   )

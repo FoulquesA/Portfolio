@@ -1,6 +1,14 @@
 import { useState } from 'react'
 import { BarChart, Bar, ScatterChart, Scatter, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell } from 'recharts'
+import { AnimatePresence, motion } from 'framer-motion'
 import slogansData from '../../slogans_data.json'
+
+const chartAnim = {
+  initial: { opacity: 0, y: 8 },
+  animate: { opacity: 1, y: 0 },
+  exit: { opacity: 0, y: -8 },
+  transition: { duration: 0.25, ease: [0.16, 1, 0.3, 1] },
+}
 
 const SloganCharts = () => {
   const [activeChart, setActiveChart] = useState('scatter')
@@ -150,8 +158,9 @@ const SloganCharts = () => {
 
       {/* Graphique actif */}
       <div className="p-6 bg-white rounded-xl border-2 border-neutral-200 shadow-lg">
+        <AnimatePresence mode="wait">
         {activeChart === 'scatter' && (
-          <div>
+          <motion.div key="scatter" {...chartAnim}>
             <h3 className="text-xl font-bold text-neutral-800 mb-4">
               Sentiment vs Efficacité
               <span className="block text-sm font-normal text-neutral-500 mt-1">
@@ -185,11 +194,11 @@ const SloganCharts = () => {
                 </Scatter>
               </ScatterChart>
             </ResponsiveContainer>
-          </div>
+          </motion.div>
         )}
 
         {activeChart === 'categories' && (
-          <div>
+          <motion.div key="categories" {...chartAnim}>
             <h3 className="text-xl font-bold text-neutral-800 mb-4">
               Distribution par catégorie
               <span className="block text-sm font-normal text-neutral-500 mt-1">
@@ -219,11 +228,11 @@ const SloganCharts = () => {
                 </Bar>
               </BarChart>
             </ResponsiveContainer>
-          </div>
+          </motion.div>
         )}
 
         {activeChart === 'radar' && (
-          <div>
+          <motion.div key="radar" {...chartAnim}>
             <h3 className="text-xl font-bold text-neutral-800 mb-4">
               Profil radar : un slogan iconique · un top scorer · un bottom scorer
             </h3>
@@ -257,8 +266,9 @@ const SloganCharts = () => {
                 ))}
               </RadarChart>
             </ResponsiveContainer>
-          </div>
+          </motion.div>
         )}
+        </AnimatePresence>
       </div>
 
       {/* Note méthodologique */}

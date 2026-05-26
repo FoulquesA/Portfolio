@@ -1,96 +1,66 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 
-const ScrollReveal = ({ 
-  children, 
+const variants = {
+  text: {
+    hidden: { opacity: 0, y: 24 },
+    visible: (stagger) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.7,
+        ease: [0.16, 1, 0.3, 1],
+        delay: stagger,
+      },
+    }),
+  },
+  image: {
+    hidden: { opacity: 0, scale: 0.96 },
+    visible: (stagger) => ({
+      opacity: 1,
+      scale: 1,
+      transition: {
+        duration: 0.8,
+        ease: [0.16, 1, 0.3, 1],
+        delay: stagger,
+      },
+    }),
+  },
+  card: {
+    hidden: { opacity: 0, y: 32, scale: 0.98 },
+    visible: (stagger) => ({
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      transition: {
+        duration: 0.8,
+        ease: [0.16, 1, 0.3, 1],
+        delay: stagger,
+      },
+    }),
+  },
+}
+
+const ScrollReveal = ({
+  children,
   type = 'text',
   stagger = 0,
-  className = '' 
+  className = '',
 }) => {
   const ref = useRef(null)
-  const isInView = useInView(ref, { 
-    once: false,
-    amount: 0.2,
-    margin: '0px 0px -20% 0px'
+  const isInView = useInView(ref, {
+    once: true,
+    amount: 0.15,
+    margin: '0px 0px -10% 0px',
   })
-
-  const variants = {
-    text: {
-      hidden: { 
-        opacity: 0, 
-        y: 20 
-      },
-      visible: { 
-        opacity: 1, 
-        y: 0,
-        transition: {
-          duration: 0.6,
-          ease: [0.16, 1, 0.3, 1],
-          delay: stagger
-        }
-      },
-      exit: {
-        opacity: 0.3,
-        transition: {
-          duration: 0.4,
-          ease: [0.4, 0, 1, 1]
-        }
-      }
-    },
-    image: {
-      hidden: { 
-        opacity: 0, 
-        scale: 0.95 
-      },
-      visible: { 
-        opacity: 1, 
-        scale: 1,
-        transition: {
-          duration: 0.7,
-          ease: [0.16, 1, 0.3, 1],
-          delay: stagger
-        }
-      },
-      exit: {
-        opacity: 0.3,
-        transition: {
-          duration: 0.4,
-          ease: [0.4, 0, 1, 1]
-        }
-      }
-    },
-    card: {
-      hidden: { 
-        opacity: 0, 
-        y: 30,
-        scale: 0.98
-      },
-      visible: { 
-        opacity: 1, 
-        y: 0,
-        scale: 1,
-        transition: {
-          duration: 0.7,
-          ease: [0.16, 1, 0.3, 1],
-          delay: stagger
-        }
-      },
-      exit: {
-        opacity: 0.3,
-        transition: {
-          duration: 0.4,
-          ease: [0.4, 0, 1, 1]
-        }
-      }
-    }
-  }
 
   return (
     <motion.div
       ref={ref}
       initial="hidden"
-      animate={isInView ? "visible" : "exit"}
+      animate={isInView ? 'visible' : 'hidden'}
       variants={variants[type]}
+      custom={stagger}
       className={className}
     >
       {children}

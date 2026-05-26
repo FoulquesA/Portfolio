@@ -1,6 +1,14 @@
 import { useState } from 'react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell } from 'recharts'
+import { AnimatePresence, motion } from 'framer-motion'
 import franceTravailData from '../../france_travail_data.json'
+
+const chartAnim = {
+  initial: { opacity: 0, y: 8 },
+  animate: { opacity: 1, y: 0 },
+  exit: { opacity: 0, y: -8 },
+  transition: { duration: 0.25, ease: [0.16, 1, 0.3, 1] },
+}
 
 const FranceTravailCharts = () => {
   const [activeChart, setActiveChart] = useState(1)
@@ -125,9 +133,10 @@ const FranceTravailCharts = () => {
         </button>
       </div>
 
+      <AnimatePresence mode="wait">
       {/* Graphique 1 - Top 10 outils */}
       {activeChart === 1 && (
-        <div className="p-8 bg-white border-2 border-primary-200 rounded-2xl shadow-lg">
+        <motion.div key="ft1" {...chartAnim} className="p-8 bg-white border-2 border-primary-200 rounded-2xl shadow-lg">
           <h3 className="text-2xl font-bold mb-6 text-primary-700">Top 10 des outils mentionnés</h3>
           <ResponsiveContainer width="100%" height={500}>
             <BarChart data={franceTravailData.tools_data} layout="vertical" margin={{ top: 5, right: 30, left: 120, bottom: 5 }}>
@@ -145,12 +154,12 @@ const FranceTravailCharts = () => {
           <p className="text-sm text-neutral-600 mt-4 italic">
             Excel, SQL et Power BI dominent le marché Data Analyst en France. Les trois outils fondamentaux représentent 82% des mentions.
           </p>
-        </div>
+        </motion.div>
       )}
 
       {/* Graphique 2 - Salaires par niveau */}
       {activeChart === 2 && (
-        <div className="p-8 bg-white border-2 border-accent-200 rounded-2xl shadow-lg">
+        <motion.div key="ft2" {...chartAnim} className="p-8 bg-white border-2 border-accent-200 rounded-2xl shadow-lg">
           <h3 className="text-2xl font-bold mb-6 text-accent-700">Salaire médian par niveau d'expérience</h3>
           <ResponsiveContainer width="100%" height={500}>
             <BarChart data={franceTravailData.salary_by_level} margin={{ top: 20, right: 30, left: 20, bottom: 60 }}>
@@ -168,12 +177,12 @@ const FranceTravailCharts = () => {
           <p className="text-sm text-neutral-600 mt-4 italic">
             Progression salariale claire : +15% entre junior et confirmé, +26% entre confirmé et senior. Médiane globale à 40k EUR.
           </p>
-        </div>
+        </motion.div>
       )}
 
       {/* Graphique 3 - Outils par niveau d'expérience */}
       {activeChart === 3 && (
-        <div className="p-8 bg-white border-2 border-primary-200 rounded-2xl shadow-lg">
+        <motion.div key="ft3" {...chartAnim} className="p-8 bg-white border-2 border-primary-200 rounded-2xl shadow-lg">
           <h3 className="text-2xl font-bold mb-6 text-primary-700">Fréquence des outils par niveau</h3>
           <ResponsiveContainer width="100%" height={500}>
             <BarChart data={franceTravailData.tools_by_experience} margin={{ top: 20, right: 30, left: 20, bottom: 60 }}>
@@ -189,12 +198,12 @@ const FranceTravailCharts = () => {
           <p className="text-sm text-neutral-600 mt-4 italic">
             Excel et SQL s'intensifient avec l'expérience. Power BI plus demandé aux juniors (23% vs 14%). Python demandé au double pour les juniors.
           </p>
-        </div>
+        </motion.div>
       )}
 
       {/* Graphique 4 - Soft skills */}
       {activeChart === 4 && (
-        <div className="p-8 bg-white border-2 border-success-200 rounded-2xl shadow-lg">
+        <motion.div key="ft4" {...chartAnim} className="p-8 bg-white border-2 border-success-200 rounded-2xl shadow-lg">
           <h3 className="text-2xl font-bold mb-6 text-success-700">Qualités professionnelles demandées</h3>
           <ResponsiveContainer width="100%" height={500}>
             <BarChart data={franceTravailData.soft_skills} layout="vertical" margin={{ top: 5, right: 30, left: 280, bottom: 5 }}>
@@ -212,8 +221,9 @@ const FranceTravailCharts = () => {
           <p className="text-sm text-neutral-600 mt-4 italic">
             Rigueur (78%) et autonomie (72%) écrasent tout. L'organisation (48%) complète le socle attendu. Les soft skills "créatives" sont marginales.
           </p>
-        </div>
+        </motion.div>
       )}
+      </AnimatePresence>
 
       {/* Note méthodologique */}
       <div className="p-6 bg-gradient-to-r from-warning-50 to-neutral-50 border-2 border-warning-300 rounded-xl">
