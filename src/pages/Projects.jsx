@@ -185,7 +185,12 @@ const Projects = () => {
                       </div>
                       <div className="grid md:grid-cols-2 gap-4">
                         {project.details.images.map((img, i) => (
-                          <img key={i} src={`${import.meta.env.BASE_URL}${img.replace(/^\//, '')}`} alt={`Olist — figure ${i + 1}`} className="w-full rounded-xl shadow-lg" />
+                          <img
+                            key={i}
+                            src={`${import.meta.env.BASE_URL}${img.replace(/^\//, '')}`}
+                            alt={`Olist — figure ${i + 1}`}
+                            className={`w-full rounded-xl shadow-lg bg-white ${i === 2 ? 'md:col-span-2' : 'h-80 object-contain'}`}
+                          />
                         ))}
                       </div>
                     </div>
