@@ -103,27 +103,27 @@ const DeezerCharts = () => {
 
       {/* Graphe P-values */}
       {activeChart === 'pvalues' && (
-        <div className="p-6 bg-neutral-900 rounded-2xl">
-          <h4 className="text-xl font-bold text-white mb-6">
+        <div className="p-6 bg-white rounded-2xl border-2 border-primary-200">
+          <h4 className="text-xl font-bold text-primary-700 mb-6">
             Significativité statistique par feature acoustique
           </h4>
-          <p className="text-white/70 text-sm mb-6">
+          <p className="text-neutral-600 text-sm mb-6">
             Test Mann-Whitney U, hypothèse : éditoriale &lt; humaine. Seuil p=0.05 (ligne pointillée)
           </p>
           <ResponsiveContainer width="100%" height={400}>
             <BarChart data={pvaluesData} layout="vertical" margin={{ left: 120, right: 40, top: 20, bottom: 20 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#333" />
-              <XAxis type="number" stroke="#fff" />
-              <YAxis type="category" dataKey="name" stroke="#fff" width={100} />
+              <CartesianGrid strokeDasharray="3 3" stroke="#ddd" />
+              <XAxis type="number" stroke="#666" />
+              <YAxis type="category" dataKey="name" stroke="#666" width={100} />
               <Tooltip content={<CustomTooltip />} />
               <Bar dataKey="value" radius={[0, 8, 8, 0]}>
                 {pvaluesData.map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill={entry.significant ? '#ec4899' : '#666'} />
+                  <Cell key={`cell-${index}`} fill={entry.significant ? '#ec4899' : '#cbd5e1'} />
                 ))}
               </Bar>
             </BarChart>
           </ResponsiveContainer>
-          <p className="text-sm text-white/60 mt-4">
+          <p className="text-sm text-neutral-600 mt-4">
             Rose = significatif (p &lt; 0.05). Gris = non significatif. Plus la barre est longue, moins la différence est significative.
           </p>
         </div>
@@ -198,18 +198,18 @@ const DeezerCharts = () => {
 
       {/* Radar chart profil acoustique */}
       {activeChart === 'radar' && (
-        <div className="p-6 bg-neutral-900 rounded-2xl">
-          <h4 className="text-xl font-bold text-white mb-6">
+        <div className="p-6 bg-white rounded-2xl border-2 border-primary-200">
+          <h4 className="text-xl font-bold text-primary-700 mb-6">
             Profil de variance acoustique moyen
           </h4>
-          <p className="text-white/70 text-sm mb-6">
+          <p className="text-neutral-600 text-sm mb-6">
             Normalisé — plus c'est grand, plus c'est variable
           </p>
           <ResponsiveContainer width="100%" height={500}>
             <RadarChart data={radarData}>
-              <PolarGrid stroke="#555" />
-              <PolarAngleAxis dataKey="axis" stroke="#fff" />
-              <PolarRadiusAxis stroke="#fff" />
+              <PolarGrid stroke="#ddd" />
+              <PolarAngleAxis dataKey="axis" stroke="#666" />
+              <PolarRadiusAxis stroke="#666" />
               <Tooltip content={<CustomTooltip />} />
               <Radar
                 name="Éditoriale Deezer"
@@ -230,7 +230,7 @@ const DeezerCharts = () => {
               <Legend />
             </RadarChart>
           </ResponsiveContainer>
-          <p className="text-sm text-white/60 mt-4">
+          <p className="text-sm text-neutral-600 mt-4">
             Variance normalisée : plus c'est haut, plus c'est variable. Les playlists éditoriales (rose) sont plus basses sur Énergie, Texture et Harmonie (features significatives) confirmant leur homogénéité contrôlée. Elles tolèrent plus de variance sur le Tempo et le timbre (MFCC).
           </p>
         </div>

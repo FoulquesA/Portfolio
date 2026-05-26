@@ -43,7 +43,7 @@ const CV = () => {
                 <div className="p-8 bg-white border-2 border-primary-100 rounded-2xl shadow-lg hover:shadow-xl transition-all">
                   <h3 className="text-2xl font-bold mb-2">Data Analyst Freelance</h3>
                   <p className="text-primary-600 font-semibold mb-4">Indépendant · 2025 - Mars 2026</p>
-                  <p className="text-neutral-700 leading-relaxed mb-3">Missions data analytics pour entreprises SaaS et e-commerce.</p>
+                  <p className="text-neutral-700 leading-relaxed mb-3">Missions data analytics pour entreprises SaaS et e-commerce :</p>
                   <ul className="list-disc list-inside space-y-1 text-neutral-700">
                     <li>Construction dashboards Power BI pour pilotage commercial</li>
                     <li>Analyses de performance marketing multicanal</li>

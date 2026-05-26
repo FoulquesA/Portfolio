@@ -9,6 +9,23 @@ const Projects = () => {
 
   const projects = [
     {
+      id: 'olist',
+      title: "Rétention client & segmentation RFM — Olist E-Commerce",
+      brief: "Analyse de la base clients d'une marketplace brésilienne (~100k commandes). Rétention par cohortes mensuelles et segmentation RFM en 7 segments actionnables avec recommandations marketing.",
+      badges: ["PostgreSQL", "Python", "pandas", "SQLAlchemy", "seaborn", "matplotlib"],
+      githubUrl: "https://github.com/FoulquesA/Olist-ecommerce-retention-analysis",
+      details: {
+        question: "Sur une marketplace généraliste, qui sont les clients qui méritent un effort marketing ? Le taux de réachat tient-il dans le temps, et comment isoler les segments à valeur dans une base où chaque commande semble ponctuelle ?",
+        method: "Dataset public Kaggle (~100 000 commandes Olist, septembre 2016 – octobre 2018) chargé en PostgreSQL. Requêtes SQL pour construire les cohortes mensuelles de rétention et calculer les scores RFM par quintiles (NTILE), puis pandas et seaborn pour la visualisation. Périmètre restreint aux commandes livrées, identifiant customer_unique_id pour éviter le sur-comptage des clients récurrents.",
+        revelation: "97 % des clients ne commandent qu'une seule fois : la rétention de masse n'est pas un levier viable. La segmentation RFM isole 7 segments, dont 14 479 Champions et 13 795 Gros clients à risque qui concentrent la valeur exploitable. L'effort marketing se redirige vers la maximisation de valeur des segments identifiés, avec des actions différenciées : fidélisation des Champions, réactivation des Gros clients à risque, désinvestissement sur les Clients perdus.",
+        images: [
+          '/projects/olist/olist_reachat.png',
+          '/projects/olist/olist_cohort_heatmap.png',
+          '/projects/olist/olist_rfm_segments.png'
+        ]
+      }
+    },
+    {
       id: 'cleansheet',
       title: "Nettoyer des fichiers de données sans quitter le navigateur",
       brief: "Application web pour préparer mes bases de données avant analyse. Je charge un CSV ou Excel, l'application détecte les problèmes, je corrige pas à pas, j'exporte le fichier propre. Interface bilingue FR-EN, tout dans le navigateur.",
@@ -99,7 +116,7 @@ const Projects = () => {
         <div className="relative max-w-7xl mx-auto px-6">
           <ScrollReveal type="text">
             <div className="inline-block px-6 py-2 bg-white/20 backdrop-blur-sm rounded-full mb-6">
-              <p className="text-white font-bold text-sm tracking-wider">4 PROJETS DATA</p>
+              <p className="text-white font-bold text-sm tracking-wider">5 PROJETS DATA</p>
             </div>
             <h1 className="text-white mb-6 max-w-4xl">Projets</h1>
             <p className="text-2xl text-white/90 max-w-3xl leading-relaxed">
@@ -149,6 +166,31 @@ const Projects = () => {
               {/* Détails expandables */}
               <div className={`overflow-hidden transition-all duration-500 ${expandedProject === project.id ? 'max-h-[5000px] opacity-100 mt-6' : 'max-h-0 opacity-0'}`}>
                 <div className="p-8 bg-gradient-to-br from-neutral-50 to-white border-2 border-neutral-200 rounded-2xl">
+                  {/* Olist */}
+                  {project.id === 'olist' && (
+                    <div className="space-y-6">
+                      <div className="grid md:grid-cols-2 gap-6">
+                        <div className="p-6 bg-white border-l-4 border-primary-600 rounded-xl shadow-md">
+                          <h4 className="text-lg font-bold mb-3 text-primary-700">Question de départ</h4>
+                          <p className="text-neutral-700 leading-relaxed">{project.details.question}</p>
+                        </div>
+                        <div className="p-6 bg-white border-l-4 border-accent-600 rounded-xl shadow-md">
+                          <h4 className="text-lg font-bold mb-3 text-accent-700">Méthode</h4>
+                          <p className="text-neutral-700 leading-relaxed">{project.details.method}</p>
+                        </div>
+                      </div>
+                      <div className="p-8 bg-gradient-to-br from-primary-600 to-accent-600 rounded-xl shadow-xl">
+                        <h4 className="text-xl font-bold mb-4 text-white">Révélation</h4>
+                        <p className="text-white/95 leading-relaxed">{project.details.revelation}</p>
+                      </div>
+                      <div className="grid md:grid-cols-2 gap-4">
+                        {project.details.images.map((img, i) => (
+                          <img key={i} src={img} alt={`Olist — figure ${i + 1}`} className="w-full rounded-xl shadow-lg" />
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
                   {/* CleanSheet */}
                   {project.id === 'cleansheet' && (
                     <div className="space-y-6">

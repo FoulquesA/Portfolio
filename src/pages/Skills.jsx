@@ -39,7 +39,7 @@ const Skills = () => {
                   <div>
                     <h3 className="text-3xl font-bold mb-5 text-primary-700">Analyse & Modélisation</h3>
                     <p className="text-neutral-700 leading-relaxed text-lg">
-                      Python, SQL, statistiques, clustering, NLP. J'explore les données pour faire émerger des patterns exploitables.
+                      Python, SQL, statistiques, clustering, NLP. Exploration des données pour faire émerger des patterns exploitables.
                     </p>
                   </div>
                 </div>
@@ -60,7 +60,7 @@ const Skills = () => {
                   <div>
                     <h3 className="text-3xl font-bold mb-5 text-accent-700">Visualisation & Reporting</h3>
                     <p className="text-neutral-700 leading-relaxed text-lg">
-                      Power BI, Looker Studio, PostHog, DAX, Python (Seaborn, Matplotlib, Plotly). Je traduis les chiffres en insights actionnables pour les équipes.
+                      Power BI, Looker Studio, PostHog, DAX, Python (Seaborn, Matplotlib, Plotly). Transformation des chiffres en insights actionnables pour les équipes.
                     </p>
                   </div>
                 </div>
@@ -79,9 +79,9 @@ const Skills = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-3xl font-bold mb-5 bg-gradient-to-r from-primary-700 to-accent-700 bg-clip-text text-transparent">Terrain Business</h3>
+                    <h3 className="text-3xl font-bold mb-5 bg-gradient-to-r from-primary-700 to-accent-700 bg-clip-text text-transparent">Business Intelligence</h3>
                     <p className="text-neutral-700 leading-relaxed text-lg">
-                      Marketing analytics, KPI par canal, dashboarding SaaS. Je traduis la donnée en décisions pour les équipes.
+                      Marketing analytics, KPI par canal, dashboarding SaaS. Traduction de la donnée en décisions pour les équipes.
                     </p>
                   </div>
                 </div>
