@@ -55,7 +55,7 @@ const Home = () => {
             <div className="max-w-3xl">
               <div className="p-6 bg-white/80 backdrop-blur-sm border-l-4 border-primary-600 rounded-xl shadow-lg">
                 <p className="text-xl text-neutral-700 leading-relaxed">
-                  Master Marketing Insight & Data Analytics Strategy (PSB Paris). 2 ans chez Caramel&Cie comme Marketing Data Analyst, où une refonte data-driven de la stratégie a généré <span className="font-bold text-accent-700">+30 % de CA vs N-1</span>. Aujourd'hui freelance pour clients SaaS, je conçois l'infrastructure analytics et le tracking comportemental qui éclairent les décisions marketing et produit.
+                  Master Marketing Insight & Data Analytics Strategy (PSB Paris). 2 ans chez Caramel&Cie comme Marketing Data Analyst — une refonte data-driven de la stratégie a généré <span className="font-bold text-accent-700">+30 % de CA vs N-1</span>. Puis 1 an en freelance pour clients SaaS sur l'infrastructure analytics et le tracking comportemental. Je rejoins aujourd'hui une équipe en CDI.
                 </p>
                 <p className="text-base text-neutral-600 mt-3">
                   Ouvert à : <span className="font-semibold text-primary-700">Marketing Data Analyst</span>, <span className="font-semibold text-primary-700">Product Analyst</span>, <span className="font-semibold text-primary-700">Consultant Web Analytics</span>.
