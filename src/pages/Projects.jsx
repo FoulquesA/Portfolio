@@ -4,6 +4,20 @@ import DeezerCharts from '../components/DeezerCharts'
 import SloganCharts from '../components/SloganCharts'
 import FranceTravailCharts from '../components/FranceTravailCharts'
 
+const UseCaseBlock = ({ text }) => (
+  <div className="p-8 bg-gradient-to-br from-neutral-900 to-neutral-800 rounded-xl shadow-xl">
+    <div className="flex items-center gap-3 mb-4">
+      <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
+        <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+      </div>
+      <h4 className="text-xl font-bold text-white">Cas d'usage business</h4>
+    </div>
+    <p className="text-white/90 leading-relaxed">{text}</p>
+  </div>
+)
+
 const Projects = () => {
   const [expandedProject, setExpandedProject] = useState(null)
 
@@ -18,6 +32,7 @@ const Projects = () => {
         question: "Sur une marketplace généraliste, qui sont les clients qui méritent un effort marketing ? Le taux de réachat tient-il dans le temps, et comment isoler les segments à valeur dans une base où chaque commande semble ponctuelle ?",
         method: "Dataset public Kaggle (~100 000 commandes Olist, septembre 2016 – octobre 2018) chargé en PostgreSQL. Requêtes SQL pour construire les cohortes mensuelles de rétention et calculer les scores RFM par quintiles (NTILE), puis pandas et seaborn pour la visualisation. Périmètre restreint aux commandes livrées, identifiant customer_unique_id pour éviter le sur-comptage des clients récurrents.",
         revelation: "97 % des clients ne commandent qu'une seule fois : la rétention de masse n'est pas un levier viable. La segmentation RFM isole 7 segments, dont 14 479 Champions et 13 795 Gros clients à risque qui concentrent la valeur exploitable. L'effort marketing se redirige vers la maximisation de valeur des segments identifiés, avec des actions différenciées : fidélisation des Champions, réactivation des Gros clients à risque, désinvestissement sur les Clients perdus.",
+        useCase: "Cible : équipe marketing en marketplace ou e-commerce généraliste. Levier : sur un modèle à faible récurrence, abandonner les KPIs de rétention agrégée (qui mentent) et piloter le budget acquisition au CAC par segment RFM. Concentrer sur Champions + Gros clients à risque (≈30 % des clients, valeur concentrée), désinvestir sur Clients perdus. Permet de mesurer un ROAS différencié par segment au lieu d'un ROAS moyen qui cache tout.",
         images: [
           '/projects/olist/olist_reachat.png',
           '/projects/olist/olist_cohort_heatmap.png',
@@ -35,6 +50,7 @@ const Projects = () => {
         context: "Le nettoyage de données représente souvent 60 à 80% du temps d'une analyse exploratoire. Les outils existants imposent soit des manipulations Excel répétitives et sources d'erreur, soit du code Python sur chaque nouveau fichier. Je voulais une application sur laquelle m'appuyer pour gérer cette étape de manière simple et intuitive, pour réutiliser la logique de nettoyage sur de nouveaux fichiers",
         solution: "Application Streamlit déployée publiquement. Chargement fichier, profiling automatique des colonnes, transformations réversibles guidées (gestion NaN, suppression doublons, normalisation types, encodage), historique complet permettant retour arrière, export CSV propre. Disponible sur mon GitHub comme outil personnel réutilisable.",
         impact: "Gain de temps sur la phase de préparation. Application fonctionnelle que j'utilise régulièrement avant de basculer sur Pandas pour l'analyse proprement dite.",
+        useCase: "Cible : analyste métier, équipe data junior, freelance. Levier : industrialiser la phase pré-analyse, qui pèse 60-80 % du temps total d'une étude exploratoire. L'outil capitalise la logique de nettoyage (NaN, types, doublons, encodage) en un parcours guidé et réutilisable. Sur un nouveau fichier client, on retrouve les transformations habituelles en quelques clics au lieu de re-coder un script Pandas à chaque fois.",
         images: [] // Tu ajouteras les images ici
       }
     },
@@ -48,6 +64,7 @@ const Projects = () => {
         question: "Fluidité suspecte des playlists éditoriales, comme si tout était calibré pour ne jamais faire de vague. Biais perceptif ou choix éditorial mesurable ? Pour une marque ou un artiste sur ces plateformes, la réponse change la stratégie.",
         method: "Extraction API Deezer de 122 playlists (éditoriales Deezer vs utilisateurs populaires). Pour chaque morceau, 11 caractéristiques acoustiques calculées (énergie, texture, brillance, équilibre fréquentiel, etc.). Comparaison statistique variance interne entre groupes.",
         revelation: "Les playlists éditoriales maintiennent un corridor sonore mesurable. 5 dimensions sur 11 significatives statistiquement, dont l'intensité sonore et la texture au seuil le plus exigeant. Les équipes éditoriales appliquent une contrainte d'homogénéité acoustique façonnant ce que 100M d'utilisateurs entendent. Pour un label ou artiste : entrer dans une playlist éditoriale impose une compatibilité sonore, pas seulement une qualité intrinsèque.",
+        useCase: "Cible : label, manager d'artiste, équipe éditoriale d'une plateforme de streaming. Levier : intégrer le profil acoustique cible dans le brief de production. Avant de pitcher un single à une playlist éditoriale, mesurer son écart sur les 5 dimensions critiques (intensité, texture, brillance, équilibre, énergie). Au-delà d'un seuil, retravailler le master ou cibler une playlist utilisateur plutôt que de brûler du budget promo sur une inclusion impossible. Côté plateforme : objectiver le brief de cohérence d'une équipe éditoriale au lieu de s'en remettre au goût.",
         images: [
           '/projects/deezer/pvalues_summary.png',
           '/projects/deezer/boxplots_variance.png',
@@ -67,6 +84,7 @@ const Projects = () => {
       details: {
         question: "Un slogan n'est jamais un accident, chaque mot est arbitré pendant des mois. Regarder les slogans comme un corpus révèle une cartographie des stratégies de positionnement d'un secteur entier. La tech joue l'innovation disruptive ? Le luxe l'émotion ou le statut ? Les banques la sécurité ou l'accompagnement ?",
         revelation: "Les secteurs communiquent selon des codes stables. La tech surutilise les verbes d'action impératifs, la finance maintient une distance institutionnelle via \"nous\", le retail s'adresse directement au client \"toi/vous\". Les slogans courts sont l'apanage des marques installées (abstraction possible), les challengers écrivent leur promesse en toutes lettres.",
+        useCase: "Cible : marque en repositionnement, brief d'agence copywriting, équipe brand interne. Levier : auditer son slogan contre le code dominant de son secteur. Coller au code = signal de leader ou de suiveur prudent. S'en démarquer délibérément = signal de challenger volontaire. Permet de cadrer un brief de copywriting avec une grille objectivée plutôt que de discuter à l'intuition, et de mesurer l'écart entre le slogan voulu et le positionnement réel d'une marque.",
         images: [
           '/projects/slogans/visual_1_violin.png',
           '/projects/slogans/visual_2_scatter.png',
@@ -86,6 +104,7 @@ const Projects = () => {
       details: {
         revelation: "Le marché français reste massivement ancré dans la BI traditionnelle. Excel 32%, SQL 29%, Power BI 21%, Python 13%. La vraie information émerge dans la segmentation par niveau : Python cité 2x plus chez les juniors que seniors (15% vs 7,5%). Le marché n'est pas figé, il est en bifurcation.",
         limits: "Moins de 10% des offres affichent un salaire. Certaines données comme les hardskills sont analysées sur des échantillons différents de celui utilisé pour les salaires. La qualité des données varie d'une partie de l'étude à l'autre. J'ai tenté de compenser en filtrant strictement les données exploitables, mais la fragmentation reste une contrainte.",
+        useCase: "Cible : cabinet de recrutement spécialisé data, équipe RH interne, école data ou bootcamp. Levier : adapter le sourcing et la formation à la bifurcation du marché. Demander Python à un senior ferme ≈90 % du pool exploitable (le marché senior reste massivement BI traditionnelle). À l'inverse, un junior formé exclusivement à Python rate l'entry-level encore dominé par Excel/SQL. Permet de calibrer une grille de scoring CV ou de construire un cursus aligné sur la demande réelle, pas sur la demande perçue.",
         images: [
           '/projects/france-travail/vue_ensemble.png',
           '/projects/france-travail/top_outils.png',
@@ -183,6 +202,7 @@ const Projects = () => {
                         <h4 className="text-xl font-bold mb-4 text-white">Révélation</h4>
                         <p className="text-white/95 leading-relaxed">{project.details.revelation}</p>
                       </div>
+                      <UseCaseBlock text={project.details.useCase} />
                       <div className="grid md:grid-cols-2 gap-4">
                         {project.details.images.map((img, i) => (
                           <img
@@ -213,6 +233,7 @@ const Projects = () => {
                         <h4 className="text-lg font-bold mb-3 text-primary-700">Impact</h4>
                         <p className="text-neutral-700 leading-relaxed">{project.details.impact}</p>
                       </div>
+                      <UseCaseBlock text={project.details.useCase} />
                       {/* Placeholder pour images */}
                       <div className="grid md:grid-cols-2 gap-4">
                         {project.details.images.map((img, i) => (
@@ -239,7 +260,8 @@ const Projects = () => {
                         <h4 className="text-xl font-bold mb-4 text-white">Révélation</h4>
                         <p className="text-white/95 leading-relaxed">{project.details.revelation}</p>
                       </div>
-                      
+                      <UseCaseBlock text={project.details.useCase} />
+
                       {/* Graphes interactifs */}
                       <div className="mt-8">
                         <DeezerCharts />
@@ -260,6 +282,7 @@ const Projects = () => {
                           <p className="text-neutral-700 leading-relaxed">{project.details.revelation}</p>
                         </div>
                       </div>
+                      <UseCaseBlock text={project.details.useCase} />
 
                       {/* Graphes interactifs */}
                       <div className="mt-8">
@@ -282,13 +305,14 @@ const Projects = () => {
                           <p className="text-neutral-700 leading-relaxed ">{project.details.limits}</p>
                         </div>
                       </div>
+                      <UseCaseBlock text={project.details.useCase} />
 
                       {/* Graphes interactifs */}
                       <div className="mt-8">
                         <FranceTravailCharts />
                       </div>
 
-                    
+
                     </div>
                   )}
 

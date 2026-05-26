@@ -57,15 +57,35 @@ const Contact = () => {
             <div className="inline-block px-6 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-6">
               <p className="text-white font-bold text-sm tracking-wider">CONTACT</p>
             </div>
-            <h1 className="text-white mb-6">Parlons de votre projet</h1>
+            <h1 className="text-white mb-6">Parlons-en</h1>
             <p className="text-2xl text-white/90 max-w-2xl leading-relaxed">
-              Pour discuter d'un projet data, d'une mission freelance, ou simplement échanger.
+              Disponible immédiatement pour un <span className="font-semibold">CDI à Paris</span> en Marketing Data Analyst, Product Analyst ou Consultant Web Analytics. Pour échanger sur un poste ou une mission, écrivez-moi.
             </p>
           </ScrollReveal>
         </div>
       </div>
       
       <div className="max-w-4xl mx-auto px-6 py-20">
+        {/* Bandeau infos rapides */}
+        <ScrollReveal type="card" stagger={0.05}>
+          <div className="mb-8 p-6 bg-white border-2 border-neutral-200 rounded-2xl shadow-md">
+            <div className="grid sm:grid-cols-3 gap-4 text-center">
+              <div>
+                <p className="text-xs font-bold tracking-wider text-neutral-500 mb-1">LOCALISATION</p>
+                <p className="text-lg font-semibold text-neutral-900">Paris, France</p>
+              </div>
+              <div className="sm:border-l sm:border-r border-neutral-200">
+                <p className="text-xs font-bold tracking-wider text-neutral-500 mb-1">STATUT</p>
+                <p className="text-lg font-semibold text-neutral-900">Recherche CDI</p>
+              </div>
+              <div>
+                <p className="text-xs font-bold tracking-wider text-neutral-500 mb-1">DISPONIBILITÉ</p>
+                <p className="text-lg font-semibold text-primary-700">Immédiate</p>
+              </div>
+            </div>
+          </div>
+        </ScrollReveal>
+
         <div className="space-y-6">
           <ScrollReveal type="card" stagger={0.1}>
             <a 
