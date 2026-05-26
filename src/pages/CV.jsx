@@ -48,7 +48,7 @@ const CV = () => {
                 <div className="absolute -left-3 top-0 w-5 h-5 bg-primary-600 rounded-full border-4 border-white shadow-lg" />
                 <div className="p-8 bg-white border-2 border-primary-100 rounded-2xl shadow-lg hover:shadow-xl transition-all">
                   <h3 className="text-2xl font-bold mb-1">Data Analyst</h3>
-                  <p className="text-primary-600 font-semibold mb-4">Freelance — Paris · 02/2025 – 2026</p>
+                  <p className="text-primary-600 font-semibold mb-4">Freelance — Paris · 02/2025 – 05/2026</p>
                   <ul className="list-disc list-outside ml-5 space-y-2 text-neutral-700 leading-relaxed">
                     <li>Redéfinition de l'infrastructure analytics complète pour des clients SaaS</li>
                     <li>Construction de pipelines de données fiables : nettoyage, contrôle qualité et structuration pour le reporting métier</li>
