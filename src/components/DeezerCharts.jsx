@@ -110,11 +110,11 @@ const DeezerCharts = () => {
           <p className="text-neutral-600 text-sm mb-6">
             Test Mann-Whitney U, hypothèse : éditoriale &lt; humaine. Seuil p=0.05 (ligne pointillée)
           </p>
-          <ResponsiveContainer width="100%" height={400}>
-            <BarChart data={pvaluesData} layout="vertical" margin={{ left: 120, right: 40, top: 20, bottom: 20 }}>
+          <ResponsiveContainer width="100%" height={520}>
+            <BarChart data={pvaluesData} layout="vertical" margin={{ left: 20, right: 40, top: 20, bottom: 20 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#ddd" />
               <XAxis type="number" stroke="#666" />
-              <YAxis type="category" dataKey="name" stroke="#666" width={100} />
+              <YAxis type="category" dataKey="name" stroke="#666" width={160} tick={{ fontSize: 13 }} interval={0} />
               <Tooltip content={<CustomTooltip />} />
               <Bar dataKey="value" radius={[0, 8, 8, 0]}>
                 {pvaluesData.map((entry, index) => (

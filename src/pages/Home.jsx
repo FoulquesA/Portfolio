@@ -15,7 +15,7 @@ const Home = () => {
           <ScrollReveal type="text">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-primary-600 to-accent-600 rounded-full mb-6">
               <div className="w-2 h-2 bg-white rounded-full animate-pulse" />
-              <p className="text-white font-semibold text-sm tracking-wide">PORTFOLIO DATA ANALYST</p>
+              <p className="text-white font-semibold text-sm tracking-wide">PORTFOLIO MARKETING ANALYST</p>
             </div>
           </ScrollReveal>
 
@@ -25,7 +25,7 @@ const Home = () => {
 
           <ScrollReveal type="text" stagger={0.1}>
             <h1 className="mb-6 text-5xl md:text-6xl font-bold bg-gradient-to-r from-neutral-900 via-primary-700 to-accent-700 bg-clip-text text-transparent leading-tight">
-              Data Analyst — Marketing & Product
+              Marketing Analyst
             </h1>
           </ScrollReveal>
 
@@ -36,7 +36,7 @@ const Home = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                Paris
+                Paris · Mobile France et international
               </span>
               <span className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-neutral-200 rounded-full shadow-sm text-neutral-700">
                 <svg className="w-4 h-4 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -55,10 +55,10 @@ const Home = () => {
             <div className="max-w-3xl">
               <div className="p-6 bg-white/80 backdrop-blur-sm border-l-4 border-primary-600 rounded-xl shadow-lg">
                 <p className="text-xl text-neutral-700 leading-relaxed">
-                  Master Marketing Insight & Data Analytics (PSB Paris), 2 ans comme premier recrutement data chez Caramel&Cie (e-commerce). Je construis des analyses qui éclairent les décisions marketing et produit : segmenter une base client, mesurer un effet, arbitrer un budget d'acquisition.
+                  Master Marketing Insight & Data Analytics Strategy (PSB Paris). 2 ans chez Caramel&Cie comme Marketing Data Analyst, où une refonte data-driven de la stratégie a généré <span className="font-bold text-accent-700">+30 % de CA vs N-1</span>. Aujourd'hui freelance pour clients SaaS, je conçois l'infrastructure analytics et le tracking comportemental qui éclairent les décisions marketing et produit.
                 </p>
                 <p className="text-base text-neutral-600 mt-3">
-                  Cible : <span className="font-semibold text-primary-700">Marketing Data Analyst</span>, <span className="font-semibold text-primary-700">Product Analyst</span> ou <span className="font-semibold text-primary-700">Consultant Web Analytics</span>.
+                  Ouvert à : <span className="font-semibold text-primary-700">Marketing Data Analyst</span>, <span className="font-semibold text-primary-700">Product Analyst</span>, <span className="font-semibold text-primary-700">Consultant Web Analytics</span>.
                 </p>
               </div>
             </div>
@@ -168,9 +168,9 @@ const Home = () => {
 
         <div className="relative max-w-4xl mx-auto px-6 text-center">
           <ScrollReveal type="text">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Vous recrutez un Marketing Data Analyst ?</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Échangeons</h2>
             <p className="text-xl text-white/80 max-w-2xl mx-auto mb-10">
-              Je suis disponible immédiatement pour un CDI à Paris. Parlons de votre poste, de votre stack et de vos enjeux.
+              Disponible immédiatement pour un CDI, basé à Paris, mobile en France et à l'international. Pour parler d'un poste, de votre stack ou de vos enjeux data, écrivez-moi.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link

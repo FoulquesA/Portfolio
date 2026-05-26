@@ -59,7 +59,7 @@ const Contact = () => {
             </div>
             <h1 className="text-white mb-6">Parlons-en</h1>
             <p className="text-2xl text-white/90 max-w-2xl leading-relaxed">
-              Disponible immédiatement pour un <span className="font-semibold">CDI à Paris</span> en Marketing Data Analyst, Product Analyst ou Consultant Web Analytics. Pour échanger sur un poste ou une mission, écrivez-moi.
+              Disponible immédiatement pour un <span className="font-semibold">CDI</span> en Marketing Data Analyst, Product Analyst ou Consultant Web Analytics. Basé à Paris, mobile en France et à l'international. Écrivez-moi pour échanger.
             </p>
           </ScrollReveal>
         </div>
@@ -72,7 +72,7 @@ const Contact = () => {
             <div className="grid sm:grid-cols-3 gap-4 text-center">
               <div>
                 <p className="text-xs font-bold tracking-wider text-neutral-500 mb-1">LOCALISATION</p>
-                <p className="text-lg font-semibold text-neutral-900">Paris, France</p>
+                <p className="text-lg font-semibold text-neutral-900">Paris · Mobile FR/international</p>
               </div>
               <div className="sm:border-l sm:border-r border-neutral-200">
                 <p className="text-xs font-bold tracking-wider text-neutral-500 mb-1">STATUT</p>
