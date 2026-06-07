@@ -48,11 +48,11 @@ const CV = () => {
                 <div className="absolute -left-3 top-0 w-5 h-5 bg-primary-600 rounded-full border-4 border-white shadow-lg" />
                 <div className="p-8 bg-white border-2 border-primary-100 rounded-2xl shadow-lg hover:shadow-xl transition-all">
                   <h3 className="text-2xl font-bold mb-1">Data Analyst</h3>
-                  <p className="text-primary-600 font-semibold mb-4">Freelance — Paris · 02/2025 – 05/2026</p>
+                  <p className="text-primary-600 font-semibold mb-4">Freelance — Paris · 2025 – 2026</p>
                   <ul className="list-disc list-outside ml-5 space-y-2 text-neutral-700 leading-relaxed">
-                    <li>Redéfinition de l'infrastructure analytics complète pour des clients SaaS</li>
-                    <li>Construction de pipelines de données fiables : nettoyage, contrôle qualité et structuration pour le reporting métier</li>
-                    <li>Mise en place du tracking comportemental client pour optimiser conversion et rétention</li>
+                    <li>Construction d'environnements analytiques e-commerce et SaaS : modélisation des données, pipelines SQL et dashboards Looker Studio pour une lecture fiable des KPIs business (CA, trafic, conversion)</li>
+                    <li>Mise en place du tracking comportemental client et analyse de rétention/churn pour optimiser la conversion et réduire l'attrition</li>
+                    <li>Production d'analyses ad hoc et recommandations actionnables à destination des équipes métier pour soutenir la performance commerciale</li>
                   </ul>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const CV = () => {
                   <p className="text-primary-600 font-semibold mb-4">Caramel&Cie (maroquinerie pour enfant) — Paris · 2023 – 2025</p>
                   <ul className="list-disc list-outside ml-5 space-y-2 text-neutral-700 leading-relaxed">
                     <li>Refonte de la stratégie marketing basée sur un diagnostic data-driven, générant <span className="font-bold text-accent-700">+30 % de CA vs N-1</span></li>
-                    <li>Ownership du site e-commerce et des campagnes marketing : SEO, pages produits, événementiel et CRM pour soutenir la croissance du canal digital</li>
+                    <li>Pilotage des KPIs e-commerce (trafic, taux de conversion, AOV) via Shopify et GA4, avec reporting hebdomadaire et recommandations actionnables</li>
                     <li>Création de l'environnement analytique <i>from scratch</i> : modélisation des données, pipelines de transformation, reportings</li>
                   </ul>
                 </div>
@@ -135,22 +135,22 @@ const CV = () => {
 
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="p-6 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl">
-                  <h4 className="font-bold mb-3 text-white text-lg">Visualisation & analyse</h4>
+                  <h4 className="font-bold mb-3 text-white text-lg">Analyse de données & visualisation</h4>
                   <div className="flex flex-wrap gap-2">
-                    {['SQL', 'BigQuery', 'PostgreSQL', 'Python', 'Pandas', 'Seaborn', 'Matplotlib', 'Power BI', 'DAX', 'Looker Studio', 'PostHog'].map((tech, i) => (
+                    {['SQL', 'BigQuery', 'PostgreSQL', 'Python', 'Pandas', 'Seaborn', 'Matplotlib', 'Power BI', 'DAX', 'Looker Studio', 'Excel avancé'].map((tech, i) => (
                       <span key={i} className="px-3 py-1 bg-white/20 text-white text-sm font-semibold rounded-lg">{tech}</span>
                     ))}
                   </div>
+                  <p className="text-white/70 text-xs mt-3">Certification TOSA Expert Excel — 756/1000</p>
                 </div>
 
                 <div className="p-6 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl">
-                  <h4 className="font-bold mb-3 text-white text-lg">Statistiques & outils</h4>
+                  <h4 className="font-bold mb-3 text-white text-lg">E-commerce & web analytics</h4>
                   <div className="flex flex-wrap gap-2">
-                    {['R Studio', 'SAS', 'Excel avancé', 'Google Analytics', 'Git'].map((tech, i) => (
+                    {['Shopify', 'Prestashop', 'GA4', 'Google Analytics', 'PostHog'].map((tech, i) => (
                       <span key={i} className="px-3 py-1 bg-white/20 text-white text-sm font-semibold rounded-lg">{tech}</span>
                     ))}
                   </div>
-                  <p className="text-white/70 text-xs mt-3">Certification TOSA Excel — 756/1000</p>
                 </div>
               </div>
             </div>
