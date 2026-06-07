@@ -97,10 +97,7 @@ const Home = () => {
             <div className="inline-block px-6 py-2 bg-neutral-900 text-white rounded-full font-bold text-sm tracking-wider mb-4">
               PROJETS EN BREF
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-neutral-900 mb-3">Cinq études data</h2>
-            <p className="text-lg text-neutral-600 max-w-3xl">
-              E-commerce, streaming musical, branding et marché de l'emploi data. Pour chacune : une question concrète, des données réelles (jusqu'à 100k lignes), une analyse statistique ou NLP, et une recommandation pour une équipe — marketing, produit ou RH selon le cas.
-            </p>
+            <h2 className="text-4xl md:text-5xl font-bold text-neutral-900">Mes études data</h2>
           </div>
         </ScrollReveal>
 
