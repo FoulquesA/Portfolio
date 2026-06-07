@@ -94,10 +94,9 @@ const Home = () => {
       <section className="max-w-6xl mx-auto px-6 py-24">
         <ScrollReveal type="text">
           <div className="mb-12">
-            <div className="inline-block px-6 py-2 bg-neutral-900 text-white rounded-full font-bold text-sm tracking-wider mb-4">
+            <div className="inline-block px-6 py-2 bg-neutral-900 text-white rounded-full font-bold text-sm tracking-wider">
               PROJETS EN BREF
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-neutral-900">Mes études data</h2>
           </div>
         </ScrollReveal>
 
