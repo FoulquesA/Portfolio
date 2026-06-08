@@ -50,7 +50,7 @@ const CV = () => {
                   <h3 className="text-2xl font-bold mb-1">Data Analyst</h3>
                   <p className="text-primary-600 font-semibold mb-4">Freelance — Paris · 2025 – 2026</p>
                   <ul className="list-disc list-outside ml-5 space-y-2 text-neutral-700 leading-relaxed">
-                    <li>Construction d'environnements analytiques e-commerce et SaaS : modélisation des données, pipelines SQL et dashboards Looker Studio pour une lecture fiable des KPIs business (CA, trafic, conversion)</li>
+                    <li>Construction d'environnements analytiques e-commerce et SaaS : modélisation des données (tables de faits/dimensions), pipelines SQL et dashboards Looker Studio pour le suivi des KPIs business (CA, trafic, conversion)</li>
                     <li>Mise en place du tracking comportemental client et analyse de rétention/churn pour optimiser la conversion et réduire l'attrition</li>
                     <li>Production d'analyses ad hoc et recommandations actionnables à destination des équipes métier pour soutenir la performance commerciale</li>
                   </ul>
@@ -64,9 +64,9 @@ const CV = () => {
                   <h3 className="text-2xl font-bold mb-1">Marketing Data Analyst</h3>
                   <p className="text-primary-600 font-semibold mb-4">Caramel&Cie (maroquinerie pour enfant) — Paris · 2023 – 2025</p>
                   <ul className="list-disc list-outside ml-5 space-y-2 text-neutral-700 leading-relaxed">
+                    <li>Création de l'environnement analytique <i>from scratch</i> : modélisation des données, pipelines de transformation, reportings</li>
                     <li>Refonte de la stratégie marketing basée sur un diagnostic data-driven, générant <span className="font-bold text-accent-700">+30 % de CA vs N-1</span></li>
                     <li>Pilotage des KPIs e-commerce (trafic, taux de conversion, AOV) via Shopify et GA4, avec reporting hebdomadaire et recommandations actionnables</li>
-                    <li>Création de l'environnement analytique <i>from scratch</i> : modélisation des données, pipelines de transformation, reportings</li>
                   </ul>
                 </div>
               </div>
@@ -137,7 +137,7 @@ const CV = () => {
                 <div className="p-6 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl">
                   <h4 className="font-bold mb-3 text-white text-lg">Analyse de données & visualisation</h4>
                   <div className="flex flex-wrap gap-2">
-                    {['SQL', 'BigQuery', 'PostgreSQL', 'Python', 'Pandas', 'Seaborn', 'Matplotlib', 'Power BI', 'DAX', 'Looker Studio', 'Excel avancé'].map((tech, i) => (
+                    {['SQL', 'BigQuery', 'PostgreSQL', 'CTE', 'Window functions', 'Modélisation faits/dimensions', 'Power BI', 'DAX', 'Python', 'Pandas', 'Seaborn', 'Matplotlib', 'Looker Studio', 'Excel avancé'].map((tech, i) => (
                       <span key={i} className="px-3 py-1 bg-white/20 text-white text-sm font-semibold rounded-lg">{tech}</span>
                     ))}
                   </div>
