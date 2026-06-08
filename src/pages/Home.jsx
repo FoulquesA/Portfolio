@@ -17,7 +17,7 @@ const Home = () => {
           <ScrollReveal type="text">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-primary-600 to-accent-600 rounded-full mb-6">
               <div className="w-2 h-2 bg-white rounded-full animate-pulse" />
-              <p className="text-white font-semibold text-sm tracking-wide">PORTFOLIO MARKETING ANALYST</p>
+              <p className="text-white font-semibold text-sm tracking-wide">PORTFOLIO MARKETING & DATA ANALYST</p>
             </div>
           </ScrollReveal>
 
@@ -27,7 +27,7 @@ const Home = () => {
 
           <ScrollReveal type="text" stagger={0.1}>
             <h1 className="mb-6 text-5xl md:text-6xl font-bold bg-gradient-to-r from-neutral-900 via-primary-700 to-accent-700 bg-clip-text text-transparent leading-tight">
-              Marketing Analyst
+              Marketing & Data Analyst
             </h1>
           </ScrollReveal>
 

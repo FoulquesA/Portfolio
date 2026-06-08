@@ -16,7 +16,7 @@ const CV = () => {
               <p className="text-white font-bold text-sm tracking-wider">CURRICULUM VITAE</p>
             </div>
             <h1 className="text-white mb-3">Foulques Arbaretier</h1>
-            <p className="text-2xl text-white/90 font-semibold mb-6">Marketing Analyst</p>
+            <p className="text-2xl text-white/90 font-semibold mb-6">Marketing & Data Analyst</p>
             <p className="text-base text-white/80 mb-10">
               Paris, France · Disponible immédiatement · Mobile France et international
             </p>
