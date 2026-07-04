@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
+import { useLocation } from 'react-router-dom'
 import ScrollReveal from '../components/ScrollReveal'
 import DeezerCharts from '../components/DeezerCharts'
 import SloganCharts from '../components/SloganCharts'
@@ -21,6 +22,8 @@ const UseCaseBlock = ({ text }) => (
 
 const Projects = () => {
   const [expandedProject, setExpandedProject] = useState(null)
+  const location = useLocation()
+  const projectRefs = useRef({})
 
   const projects = [
     {
@@ -122,12 +125,24 @@ const Projects = () => {
   const toggleProject = (projectId) => {
     setExpandedProject(expandedProject === projectId ? null : projectId)
   }
-  
+
+  // Deep-link : /projects#<id> ouvre et scrolle vers le projet ciblé
+  useEffect(() => {
+    const id = location.hash.replace('#', '')
+    if (id && projects.some((p) => p.id === id)) {
+      setExpandedProject(id)
+      const t = setTimeout(() => {
+        projectRefs.current[id]?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }, 150)
+      return () => clearTimeout(t)
+    }
+  }, [location.hash])
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-neutral-50 via-white to-primary-50">
       {/* Header */}
       <div className="relative py-24 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary-600 via-accent-600 to-primary-700" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary-700 to-accent-700" />
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl" />
@@ -146,11 +161,117 @@ const Projects = () => {
         </div>
       </div>
       
+      {/* Parcours — expérience pro */}
+      <div className="max-w-7xl mx-auto px-6 pt-20 pb-4">
+        <ScrollReveal type="text">
+          <div className="inline-block px-6 py-2 bg-neutral-900 text-white rounded-full font-bold text-sm tracking-wider mb-8">
+            PARCOURS
+          </div>
+        </ScrollReveal>
+
+        <div className="space-y-6">
+          {/* Freelance — le plus récent, le plus proche de la cible */}
+          <ScrollReveal type="card">
+            <div className="p-8 bg-white border border-neutral-200 rounded-2xl shadow-sm">
+              <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1 md:gap-4 mb-5">
+                <div>
+                  <h3 className="text-xl font-bold text-neutral-900">Data Analyst — Freelance</h3>
+                  <p className="text-sm font-semibold text-primary-700">SaaS B2B &amp; e-commerce</p>
+                </div>
+                <span className="text-sm font-medium text-neutral-500 md:whitespace-nowrap">2025 – 2026</span>
+              </div>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent-600" />
+                  <p className="text-neutral-600 leading-relaxed">
+                    <span className="font-semibold text-neutral-900">Ordalie (SaaS B2B)</span> — Analyse du churn et de la rétention : segmentation des clients en <span className="font-semibold text-accent-700">3 profils à risque</span> à partir des signaux d'usage, et identification des facteurs d'attrition pour cibler les leviers de rétention.
+                  </p>
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent-600" />
+                  <p className="text-neutral-600 leading-relaxed">
+                    <span className="font-semibold text-neutral-900">Ordalie</span> — Système de dashboards de pilotage couvrant toute l'entreprise (usage produit &amp; engagement, finances, support, opérations), adopté au quotidien par l'équipe.
+                  </p>
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent-600" />
+                  <p className="text-neutral-600 leading-relaxed">
+                    <span className="font-semibold text-neutral-900">Risu Risu (e-commerce)</span> — Refonte des dashboards de reporting hebdomadaire (Looker Studio) pour un suivi autonome des KPIs par l'équipe marketing/ops.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </ScrollReveal>
+
+          {/* Caramel&Cie */}
+          <ScrollReveal type="card" stagger={0.1}>
+            <div className="p-8 bg-white border border-neutral-200 rounded-2xl shadow-sm">
+              <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1 md:gap-4 mb-5">
+                <div>
+                  <h3 className="text-xl font-bold text-neutral-900">Marketing Data Analyst — Caramel&amp;Cie</h3>
+                  <p className="text-sm font-semibold text-primary-700">Premier profil data de l'entreprise · alternance</p>
+                </div>
+                <span className="text-sm font-medium text-neutral-500 md:whitespace-nowrap">2023 – 2025</span>
+              </div>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary-600" />
+                  <p className="text-neutral-600 leading-relaxed">
+                    Suivi e-commerce monté de zéro (GA4, PrestaShop puis Shopify) et recommandations aux équipes métier.
+                  </p>
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary-600" />
+                  <p className="text-neutral-600 leading-relaxed">
+                    Refonte data-driven de la stratégie marketing (retargeting des segments identifiés) : <span className="font-bold text-accent-700">+30 % de CA vs N-1</span>.
+                  </p>
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary-600" />
+                  <p className="text-neutral-600 leading-relaxed">
+                    Suivi des KPIs e-commerce (trafic, conversion, AOV) : taux de conversion porté de <span className="font-bold text-accent-700">1,8 % à 2,3 %</span>.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </ScrollReveal>
+        </div>
+
+        {/* Stack consolidé */}
+        <ScrollReveal type="text" stagger={0.15}>
+          <div className="mt-6 p-8 bg-white border border-neutral-200 rounded-2xl shadow-sm">
+            <p className="text-xs font-bold tracking-wider text-neutral-500 mb-5">STACK</p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {[
+                { label: 'SQL & bases de données', items: ['SQL', 'BigQuery', 'PostgreSQL'] },
+                { label: 'Python', items: ['pandas', 'spaCy', 'scikit-learn'] },
+                { label: 'Dataviz & BI', items: ['Power BI (DAX)', 'Looker Studio', 'Excel'] },
+                { label: 'Web & e-commerce analytics', items: ['GA4', 'PostHog', 'Shopify', 'PrestaShop'] },
+              ].map((group) => (
+                <div key={group.label}>
+                  <p className="text-xs font-semibold text-neutral-400 mb-2">{group.label}</p>
+                  <div className="flex flex-wrap gap-2">
+                    {group.items.map((it) => (
+                      <span key={it} className="px-2.5 py-1 bg-neutral-100 text-neutral-700 rounded text-xs font-semibold">{it}</span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </ScrollReveal>
+      </div>
+
       {/* Grille de projets */}
-      <div className="max-w-7xl mx-auto px-6 py-20">
+      <div className="max-w-7xl mx-auto px-6 pt-10 pb-20">
+        <ScrollReveal type="text">
+          <div className="inline-block px-6 py-2 bg-neutral-900 text-white rounded-full font-bold text-sm tracking-wider mb-8">
+            PROJETS
+          </div>
+        </ScrollReveal>
         <div className="space-y-8">
           {projects.map((project, index) => (
-            <div key={project.id}>
+            <div key={project.id} ref={(el) => (projectRefs.current[project.id] = el)} className="scroll-mt-24">
               {/* Carte projet cliquable */}
               <ScrollReveal type="card" stagger={index * 0.1}>
                 <div 
@@ -158,10 +279,10 @@ const Projects = () => {
                   className="cursor-pointer group relative overflow-hidden"
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-primary-600 to-accent-600 opacity-0 group-hover:opacity-5 transition-opacity rounded-2xl" />
-                  <div className="relative p-8 bg-white border-2 border-primary-200 rounded-2xl shadow-lg group-hover:shadow-2xl group-hover:border-primary-400 transition-all">
-                    <div className="flex items-start justify-between gap-6">
+                  <div className="relative p-8 bg-white border border-neutral-200 rounded-2xl shadow-sm group-hover:shadow-xl group-hover:border-primary-400 transition-all">
+                    <div className="flex items-start justify-between gap-4 md:gap-6">
                       <div className="flex-1">
-                        <h3 className="text-2xl font-bold mb-3 text-primary-700 group-hover:text-primary-600 transition-colors">{project.title}</h3>
+                        <h3 className="text-xl md:text-2xl font-bold mb-3 text-primary-700 group-hover:text-primary-600 transition-colors">{project.title}</h3>
                         <p className="text-neutral-700 leading-relaxed mb-4">{project.brief}</p>
                         <div className="flex flex-wrap gap-2">
                           {project.badges.map((badge, i) => (
@@ -312,20 +433,22 @@ const Projects = () => {
                     </div>
                   )}
 
-                  {/* Lien GitHub */}
-                  <div className="mt-6 pt-6 border-t-2 border-neutral-200">
-                    <a 
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-900 text-white rounded-xl font-semibold hover:bg-neutral-800 transition-all hover:scale-105"
-                    >
-                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                        <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
-                      </svg>
-                      Voir le projet sur GitHub
-                    </a>
-                  </div>
+                  {/* Lien GitHub — masqué tant que l'URL est un placeholder */}
+                  {!project.githubUrl.includes('votre-username') && (
+                    <div className="mt-6 pt-6 border-t-2 border-neutral-200">
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-900 text-white rounded-xl font-semibold hover:bg-neutral-800 transition-all hover:scale-105"
+                      >
+                        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                          <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
+                        </svg>
+                        Voir le projet sur GitHub
+                      </a>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

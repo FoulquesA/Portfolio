@@ -103,18 +103,21 @@ const Home = () => {
         <div className="grid md:grid-cols-3 gap-6">
           {[
             {
+              id: 'olist',
               tag: 'Marketing · CRM',
               title: 'Rétention & RFM — Olist',
               hook: 'Sur 100k commandes, 97 % des clients ne reviennent jamais. Identifier les 30 % qui concentrent la valeur exploitable, désinvestir sur les autres.',
               stack: ['PostgreSQL', 'pandas', 'seaborn']
             },
             {
+              id: 'deezer',
               tag: 'Brand · Stratégie média',
               title: 'Playlists Deezer — corridor sonore',
               hook: '13 500 morceaux, 122 playlists. Les playlists éditoriales imposent une compatibilité acoustique mesurable sur 5 dimensions. Un brief de pitch label objectivé.',
               stack: ['Python', 'Librosa', 'Stats']
             },
             {
+              id: 'slogans',
               tag: 'Brand · Copywriting',
               title: 'NLP slogans grandes marques',
               hook: 'Chaque secteur a son code linguistique stable. Auditer son slogan contre le code = signal positionnement leader, suiveur ou challenger.',
@@ -122,7 +125,7 @@ const Home = () => {
             }
           ].map((p, i) => (
             <ScrollReveal key={i} type="card" stagger={i * 0.08}>
-              <Link to="/projects" className="block h-full group">
+              <Link to={`/projects#${p.id}`} className="block h-full group">
                 <SpotlightCard className="relative h-full bg-white border border-neutral-200 rounded-2xl shadow-sm group-hover:shadow-xl group-hover:border-primary-300 transition-all duration-300">
                   <div className="relative h-full p-8">
                     <p className="text-xs font-bold tracking-wider text-accent-700 mb-3">{p.tag}</p>
@@ -178,6 +181,12 @@ const Home = () => {
                 className="px-8 py-4 bg-white text-neutral-900 rounded-xl font-bold hover:bg-neutral-100 transition-all shadow-2xl hover:scale-105"
               >
                 Me contacter
+              </Link>
+              <Link
+                to="/projects"
+                className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 rounded-xl font-semibold hover:bg-white/20 transition-all"
+              >
+                Voir les projets
               </Link>
             </div>
           </ScrollReveal>
