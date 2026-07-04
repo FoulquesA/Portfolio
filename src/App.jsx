@@ -5,7 +5,6 @@ import Navigation from './components/Navigation'
 import ScrollProgress from './components/ScrollProgress'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
-import CV from './pages/CV'
 import Contact from './pages/Contact'
 
 const pageTransition = {
@@ -41,7 +40,6 @@ const AnimatedRoutes = () => {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<AnimatedPage><Home /></AnimatedPage>} />
         <Route path="/projects" element={<AnimatedPage><Projects /></AnimatedPage>} />
-        <Route path="/cv" element={<AnimatedPage><CV /></AnimatedPage>} />
         <Route path="/contact" element={<AnimatedPage><Contact /></AnimatedPage>} />
       </Routes>
     </AnimatePresence>
